@@ -5,8 +5,8 @@
     <domainPartition>none</domainPartition>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
-    <myDomainName>prodcopado-dev-ed</myDomainName>
-    <myDomainSuffix>MySalesforce</myDomainSuffix>
+    <myDomainName>playful-bear-8ch8m1-dev-ed</myDomainName>
+    <myDomainSuffix>MySalesforceLimited</myDomainSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
     <redirectPriorMyDomain>true</redirectPriorMyDomain>
     <use3rdPartyCookieBlockingCompatibleHostnames>true</use3rdPartyCookieBlockingCompatibleHostnames>
