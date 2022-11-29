@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Contact.Level__c</members>
+        <members>DandBCompany.EmployeesTotalReliability</members>
+        <members>DandBCompany.MinorityOwned</members>
+        <members>DandBCompany.SmallBusiness</members>
+        <members>DandBCompany.WomenOwned</members>
         <name>CustomField</name>
     </types>
     <version>56.0</version>
