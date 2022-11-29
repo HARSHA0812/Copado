@@ -223,18 +223,6 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Compliance Findings</pluralLabel>
-    <recordTypes>
-        <fullName>copado__Copado</fullName>
-        <active>true</active>
-        <description>This record type is used for scan findings produced by Copado.</description>
-        <label>Copado</label>
-    </recordTypes>
-    <recordTypes>
-        <fullName>copado__Other</fullName>
-        <active>true</active>
-        <description>Use this record type to capture non-Salesforce scan findings.</description>
-        <label>Other</label>
-    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>copado__Compliance_Rule__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>copado__Compliance_Scan_Result__c</customTabListAdditionalFields>
