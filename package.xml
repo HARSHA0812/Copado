@@ -4,5 +4,9 @@
         <members>Account.Languages__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>PersonAccount.Internal</members>
+        <name>RecordType</name>
+    </types>
     <version>56.0</version>
 </Package>
