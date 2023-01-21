@@ -141,7 +141,17 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>copado__Extension_Configuration_Panel</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>copado__Extension_Configuration_Panel</fullName>
+        <fields>Name</fields>
+        <fields>copado__ExtensionTool__c</fields>
+        <fields>copado__ExtensionApplication__c</fields>
+        <fields>copado__TestType__c</fields>
+        <fields>copado__Active__c</fields>
+        <fields>LastModifiedById</fields>
+        <label>Extension Configuration Panel</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>Defines the configuration for a specific extension.</description>
@@ -219,9 +229,9 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>None</fullName>
-                    <default>true</default>
-                    <label>None</label>
+                    <fullName>Manual Tests</fullName>
+                    <default>false</default>
+                    <label>Manual Tests</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
