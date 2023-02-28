@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Accountcontacts</value>
     </caseValues>
+    <fields>
+        <label><!-- Sample Test --></label>
+        <name>Sample_Test__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

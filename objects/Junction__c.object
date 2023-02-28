@@ -153,6 +153,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Sample_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Sample Test</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
     <label>Accountcontact</label>
     <nameField>
         <label>Name</label>

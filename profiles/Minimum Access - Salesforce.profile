@@ -7727,6 +7727,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Junction__c.Sample_Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Lead.Address</field>
         <readable>false</readable>
     </fieldPermissions>
