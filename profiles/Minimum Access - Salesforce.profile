@@ -7477,6 +7477,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Event.Sample_activity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Event.Type</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -8958,6 +8963,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Task.Description</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Sample_activity__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
