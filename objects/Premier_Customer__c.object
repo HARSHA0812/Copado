@@ -171,7 +171,7 @@
         <label>Premier Customer Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Premier Customers</pluralLabel>
+    <pluralLabel>Premier Customer</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
