@@ -194,6 +194,7 @@
     </fields>
     <fields>
         <fullName>Location</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -214,6 +215,7 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -318,6 +320,6 @@
         </filters>
         <label>Today&apos;s Agenda</label>
     </listViews>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
 </CustomObject>
