@@ -168,4 +168,12 @@
         <name>Workbench</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>pi__ProspectInsight</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>pi__Sales_Reach</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
