@@ -5,7 +5,10 @@
     <domainPartition>none</domainPartition>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
-    <myDomainName>prodcopado-dev-ed</myDomainName>
+    <enableShareBrowserSessionAndroidForAuth>false</enableShareBrowserSessionAndroidForAuth>
+    <enableShareBrowserSessionIOSForAuth>false</enableShareBrowserSessionIOSForAuth>
+    <logRedirections>false</logRedirections>
+    <myDomainName>dev1copado-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
     <redirectPriorMyDomain>true</redirectPriorMyDomain>

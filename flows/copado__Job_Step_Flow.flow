@@ -55,7 +55,7 @@
             <targetReference>Publish_Done_event</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <textTemplates>
         <name>payload</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

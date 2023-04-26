@@ -8,18 +8,6 @@
         <application>copado__Copado_Plan_Lightning</application>
         <visible>true</visible>
     </applicationVisibilities>
-    <classAccesses>
-        <apexClass>copado__KanbanBoard</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__QueryEditorController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__SprintWallUserStoriesCtrl</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <description>Kanban Board read only access.</description>
     <fieldPermissions>
         <editable>false</editable>

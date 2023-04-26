@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <classAccesses>
-        <apexClass>copado__AutomationEngine</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <description>Allow users to only execute automations. This permission set will not provide access or the possibility to create, configure or delete rules but only the required accesses to execute rules.</description>
     <fieldPermissions>
         <editable>true</editable>
@@ -97,6 +93,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Automation_Rule__c.copado__Excluded_Environments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Automation_Rule__c.copado__Execution__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -123,6 +124,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__Automation_Rule__c.copado__Stage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Deployment_Flow__c.copado__Continuous_Delivery_Configuration_Json__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Deployment_Flow__c.copado__Continuous_Delivery_Enabled__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>

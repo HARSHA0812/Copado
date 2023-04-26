@@ -219,7 +219,7 @@
         <fullName>copado__Cron_Expression__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <inlineHelpText>Represents the schedule cron expression</inlineHelpText>
+        <inlineHelpText>You can use www.cronmaker.com to create more sophisticated cron expressions. Please keep in mind that certain cron expressions might not be supported by Salesforce.</inlineHelpText>
         <label>Cron Expression</label>
         <length>255</length>
         <required>false</required>
@@ -257,8 +257,21 @@
         <fullName>copado__Environment__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <inlineHelpText>List of environments where the source action will be evaluated. The environments selected must belong to the pipeline specified in the Automation Rule.</inlineHelpText>
-        <label>Environment</label>
+        <inlineHelpText>List of environments where the source action will be evaluated. You can select up to 13 environments.</inlineHelpText>
+        <label>Selected Environments</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado__Excluded_Environments__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>List of environments to be excluded when a stage is selected. You can select up to 13 environments.</inlineHelpText>
+        <label>Excluded Environments</label>
         <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -377,8 +390,8 @@
         <fullName>copado__Stage__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <inlineHelpText>List of stages where the source action will be evaluated. The environments/stages selected must belong to the pipeline specified in the Automation Rule.</inlineHelpText>
-        <label>Stage</label>
+        <inlineHelpText>List of stages where the source action will be evaluated. You can select up 13 stages.</inlineHelpText>
+        <label>Selected Stages</label>
         <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -387,13 +400,32 @@
         <unique>false</unique>
     </fields>
     <label>Automation Rule</label>
+    <listViews>
+        <fullName>copado__All</fullName>
+        <columns>NAME</columns>
+        <columns>copado__Active__c</columns>
+        <columns>copado__Pipeline__c</columns>
+        <columns>copado__Source_Action__c</columns>
+        <columns>copado__Source_Action_Status__c</columns>
+        <columns>copado__Automated_Action__c</columns>
+        <columns>copado__Execution__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Automation Rule Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Automation Rules</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>copado__Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Pipeline__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Source_Action__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Source_Action_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Automated_Action__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Execution__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>copado__Stage_and_Environment_both_populated</fullName>

@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <classAccesses>
-        <apexClass>copado__AutomationRuleActivationCtrl</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__AutomationRuleConfigureCtrl</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__AutomationRuleDeactivationCtrl</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <description>Enables users to configure and execute automations. This permission set will give admin access to users who need to create, configure and delete automations in their pipelines. Typically a Release Manager</description>
     <fieldPermissions>
         <editable>false</editable>
@@ -105,6 +93,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>copado__Automation_Rule__c.copado__Excluded_Environments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>copado__Automation_Rule__c.copado__Execution__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -131,6 +124,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copado__Automation_Rule__c.copado__Stage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Deployment_Flow__c.copado__Continuous_Delivery_Configuration_Json__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Deployment_Flow__c.copado__Continuous_Delivery_Enabled__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
@@ -162,4 +165,8 @@
         <object>copado__Deployment_Flow__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <tabSettings>
+        <tab>copado__Automation_Rule__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

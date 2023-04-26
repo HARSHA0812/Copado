@@ -20,7 +20,7 @@
         <name>copado__Automation_Connector__c</name>
     </fields>
     <fields>
-        <help><!-- Represents the schedule cron expression --></help>
+        <help><!-- You can use www.cronmaker.com to create more sophisticated cron expressions. Please keep in mind that certain cron expressions might not be supported by Salesforce. --></help>
         <label><!-- Cron Expression --></label>
         <name>copado__Cron_Expression__c</name>
     </fields>
@@ -35,9 +35,14 @@
         <name>copado__Description__c</name>
     </fields>
     <fields>
-        <help><!-- List of environments where the source action will be evaluated. The environments selected must belong to the pipeline specified in the Automation Rule. --></help>
-        <label><!-- Environment --></label>
+        <help><!-- List of environments where the source action will be evaluated. You can select up to 13 environments. --></help>
+        <label><!-- Selected Environments --></label>
         <name>copado__Environment__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of environments to be excluded when a stage is selected. You can select up to 13 environments. --></help>
+        <label><!-- Excluded Environments --></label>
+        <name>copado__Excluded_Environments__c</name>
     </fields>
     <fields>
         <help><!-- Indicate if the automated action should be immediately executed or it&apos;ll be scheduled --></help>
@@ -85,8 +90,8 @@
         <name>copado__Source_Action__c</name>
     </fields>
     <fields>
-        <help><!-- List of stages where the source action will be evaluated. The environments/stages selected must belong to the pipeline specified in the Automation Rule. --></help>
-        <label><!-- Stage --></label>
+        <help><!-- List of stages where the source action will be evaluated. You can select up 13 stages. --></help>
+        <label><!-- Selected Stages --></label>
         <name>copado__Stage__c</name>
     </fields>
     <validationRules>
