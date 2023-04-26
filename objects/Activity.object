@@ -141,6 +141,13 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>check__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>check</label>
+        <type>Checkbox</type>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
