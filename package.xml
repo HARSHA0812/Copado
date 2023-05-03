@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Event.Location</members>
-        <members>Event.Subject</members>
-        <members>Event.check__c</members>
-        <members>Task.check__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Event</members>
-        <name>CustomObject</name>
+        <members>1 - ES Sales User %28Sales Manager%29</members>
+        <name>Profile</name>
     </types>
     <version>57.0</version>
 </Package>
