@@ -8998,6 +8998,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.website__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Attachment</field>
         <readable>false</readable>
@@ -10610,6 +10615,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.website__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

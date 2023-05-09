@@ -169,7 +169,7 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>DurationInMinutes</fullName>
@@ -190,7 +190,7 @@
     </fields>
     <fields>
         <fullName>IsPrivate</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>IsRecurrence2</fullName>
@@ -201,7 +201,7 @@
     </fields>
     <fields>
         <fullName>Location</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>

@@ -8975,6 +8975,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Event.website__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Idea.Attachment</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -10586,6 +10591,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Task.test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.website__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

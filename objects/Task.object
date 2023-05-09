@@ -140,7 +140,7 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Email</fullName>
@@ -163,7 +163,7 @@
     </fields>
     <fields>
         <fullName>Priority</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -181,7 +181,7 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
