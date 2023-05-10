@@ -8968,6 +8968,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.Salesforce_demo_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Event.Sample_activity__c</field>
         <readable>false</readable>
@@ -10585,6 +10590,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Salesforce_demo_test__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
