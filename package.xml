@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>copado__Public_Dashboards/ZzRsQhxlYwGxxWHJQilbcZhONgAozu</members>
-        <name>Dashboard</name>
+        <members>copado__Environment__c</members>
+        <members>copado__Git_Backup__c</members>
+        <members>copado__Git_Repository__c</members>
+        <members>copado__Org__c</members>
+        <members>copado__User_Story_Metadata__c</members>
+        <members>copado__User_Story__c</members>
+        <name>CustomObject</name>
     </types>
-    <version>57.0</version>
+    <types>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
+    <version>58.0</version>
 </Package>

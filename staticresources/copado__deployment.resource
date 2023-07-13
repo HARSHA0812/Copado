@@ -814,7 +814,7 @@ var copadoApp = {
         var panelHtml = msg
             ? $copado('[id$=js-msg-' + type + ']')
                 .html()
-                .replace('__MSG__', msg)
+                .replaceAll('__MSG__', msg)
             : $copado('[id$=js-msg-' + type + ']').html();
         $copado('.fixedMsg')
             .html(panelHtml)
@@ -954,6 +954,7 @@ var copadoApp = {
                         $el.closest('.dataRow').remove();
                         reloadHistory();
                         me.showMessage('CONFIRM', copadoLabels.STEP_DELETED);
+                        me.reorderStepsController();
                     } else {
                         // Delete failed so throw and error to UI
                         me.showMessage('ERROR', event.message);
