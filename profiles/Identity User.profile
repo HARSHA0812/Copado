@@ -18993,6 +18993,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Waitlist</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-WebCart</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
