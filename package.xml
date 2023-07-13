@@ -10,6 +10,12 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>copado__Git_Backup__c</members>
+        <members>copado__Git_Repository__c</members>
+        <members>copado__User_Story__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
         <members>Standard</members>
         <name>Profile</name>
     </types>
