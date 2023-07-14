@@ -176,4 +176,8 @@
         <name>pi__Sales_Reach</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_kdspvs9efdtaaxsp3plc</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>
