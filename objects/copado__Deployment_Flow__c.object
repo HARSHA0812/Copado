@@ -557,19 +557,6 @@ This value will prefill the order by field on related Promotion record creation 
         <type>Lookup</type>
     </fields>
     <label>Pipeline</label>
-    <listViews>
-        <fullName>copado__All</fullName>
-        <columns>NAME</columns>
-        <columns>copado__Active__c</columns>
-        <columns>copado__Manage_Branches__c</columns>
-        <columns>copado__Git_Repository__c</columns>
-        <columns>copado__Main_Branch__c</columns>
-        <columns>CREATED_DATE</columns>
-        <columns>LAST_UPDATE</columns>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-        <language>en_US</language>
-    </listViews>
     <nameField>
         <label>Pipeline Name</label>
         <trackHistory>false</trackHistory>

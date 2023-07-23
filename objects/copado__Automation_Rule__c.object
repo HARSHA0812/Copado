@@ -219,7 +219,7 @@
         <fullName>copado__Cron_Expression__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <inlineHelpText>Represents the schedule cron expression</inlineHelpText>
+        <inlineHelpText>You can use www.cronmaker.com to create more sophisticated cron expressions. Please keep in mind that certain cron expressions might not be supported by Salesforce.</inlineHelpText>
         <label>Cron Expression</label>
         <length>255</length>
         <required>false</required>
@@ -257,7 +257,7 @@
         <fullName>copado__Environment__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <inlineHelpText>List of environments where the source action will be evaluated. The environments selected must belong to the pipeline specified in the Automation Rule.</inlineHelpText>
+        <inlineHelpText>List of environments where the source action will be evaluated. You can select up to 13 environments.</inlineHelpText>
         <label>Selected Environments</label>
         <length>255</length>
         <required>false</required>
@@ -390,7 +390,7 @@
         <fullName>copado__Stage__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <inlineHelpText>List of stages where the source action will be evaluated. The environments/stages selected must belong to the pipeline specified in the Automation Rule.</inlineHelpText>
+        <inlineHelpText>List of stages where the source action will be evaluated. You can select up 13 stages.</inlineHelpText>
         <label>Selected Stages</label>
         <length>255</length>
         <required>false</required>
@@ -418,7 +418,14 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Automation Rules</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>copado__Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Pipeline__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Source_Action__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Source_Action_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Automated_Action__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Execution__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>copado__Stage_and_Environment_both_populated</fullName>

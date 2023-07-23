@@ -100,6 +100,10 @@
                 <behavior>Edit</behavior>
                 <field>copado__Order_by__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>copado__Apply_Connection_Behaviours_to_existing__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
@@ -216,12 +220,27 @@
         <relatedList>copado__System_Property__c.copado__Pipeline__c</relatedList>
     </relatedLists>
     <relatedLists>
-        <excludeButtons>New</excludeButtons>
+        <excludeButtons>MassChangeOwner</excludeButtons>
         <fields>NAME</fields>
         <fields>copado__Start_Date__c</fields>
         <fields>copado__End_Date__c</fields>
         <fields>copado__Status__c</fields>
         <relatedList>copado__Project__c.copado__Deployment_Flow__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <excludeButtons>New</excludeButtons>
+        <fields>NAME</fields>
+        <fields>copado__Template__c</fields>
+        <fields>copado__Context__c</fields>
+        <fields>copado__Source__c</fields>
+        <fields>copado__Destination__c</fields>
+        <fields>copado__Status__c</fields>
+        <fields>copado__ErrorMessage__c</fields>
+        <fields>CREATED_DATE</fields>
+        <relatedList>copado__JobExecution__c.copado__Pipeline__c</relatedList>
+        <sortField>CREATED_DATE</sortField>
+        <sortOrder>Desc</sortOrder>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedNoteList</relatedList>
@@ -251,11 +270,10 @@
         <excludeButtons>MassChangeOwner</excludeButtons>
         <fields>NAME</fields>
         <fields>copado__Stage__c.NAME</fields>
+        <fields>copado__Stage__c.copado__Display_Name__c</fields>
         <fields>copado__Next_Stage_Connection__c</fields>
         <fields>copado__Next_Stage__c</fields>
         <relatedList>copado__Stage_Connection__c.copado__Pipeline__c</relatedList>
-        <sortField>NAME</sortField>
-        <sortOrder>Asc</sortOrder>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>

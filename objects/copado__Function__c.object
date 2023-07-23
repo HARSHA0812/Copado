@@ -436,14 +436,5 @@
         <errorDisplayField>copado__API_Name__c</errorDisplayField>
         <errorMessage>Api name can only contain alphanumeric characters and must begin with a letter</errorMessage>
     </validationRules>
-    <validationRules>
-        <fullName>copado__Script_must_contain_a_value</fullName>
-        <active>true</active>
-        <errorConditionFormula>AND(
-NOT(ISNEW()),
-ISBLANK(TRIM(copado__Script__c))
-)</errorConditionFormula>
-        <errorMessage>Script cannot be empty.</errorMessage>
-    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

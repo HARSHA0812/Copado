@@ -229,9 +229,9 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>None</fullName>
-                    <default>true</default>
-                    <label>None</label>
+                    <fullName>Manual Tests</fullName>
+                    <default>false</default>
+                    <label>Manual Tests</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
