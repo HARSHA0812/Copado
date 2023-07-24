@@ -128,22 +128,16 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>User_Story_Record_Page1</content>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>User_Story_Record_Page1</content>
         <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
@@ -6200,91 +6194,6 @@
         <label>Work Manager Relations</label>
     </fieldSets>
     <fields>
-        <fullName>cml_First_Ready_to_Promote_Time__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Records the date/time on which this User Story was first marked as Ready to Promote</description>
-        <externalId>false</externalId>
-        <label>First Ready to Promote Time</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>cml_First_Time_Promoted_Prod_or_RB__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Records the first time this User Story was promoted to a Production Org OR Rolled Back out of Production. Used in the calculation of both Lead Time and Mean Time to Restore</description>
-        <externalId>false</externalId>
-        <label>First Time Promoted Prod Or Rolled Back</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>cml_Found_in_Promotion__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Found in Promotion</label>
-        <referenceTo>copado__Promotion__c</referenceTo>
-        <relationshipLabel>User Stories (Found in Promotion)</relationshipLabel>
-        <relationshipName>User_Stories</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>cml_Is_Business_Disruption_Failure__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Indicates if this User Story is considered a Business Disrupting Failure (i.e. a P0 or P1 severity issue)</description>
-        <externalId>false</externalId>
-        <formula>IF(OR(TEXT(cml_Severity__c) == &apos;P0 - Blocker - Business Disruption&apos;, TEXT(cml_Severity__c) == &apos;P1 - Critical - No Workaround&apos;), true, false)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Is Business Disruption Failure</label>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>cml_Severity__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Used to track the severity on User Stories of type Bug</description>
-        <externalId>false</externalId>
-        <label>Severity</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>P0 - Blocker - Business Disruption</fullName>
-                    <default>false</default>
-                    <label>P0 - Blocker - Business Disruption</label>
-                </value>
-                <value>
-                    <fullName>P1 - Critical - No Workaround</fullName>
-                    <default>false</default>
-                    <label>P1 - Critical - No Workaround</label>
-                </value>
-                <value>
-                    <fullName>P2 - Major</fullName>
-                    <default>false</default>
-                    <label>P2 - Major</label>
-                </value>
-                <value>
-                    <fullName>P3 - Minor</fullName>
-                    <default>false</default>
-                    <label>P3 - Minor</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>copado__Acceptance_Criteria_Status__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
@@ -7591,16 +7500,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                     <default>false</default>
                     <label>Cancelled</label>
                 </value>
-                <value>
-                    <fullName>To Do</fullName>
-                    <default>false</default>
-                    <label>To Do</label>
-                </value>
-                <value>
-                    <fullName>Done</fullName>
-                    <default>false</default>
-                    <label>Done</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -7862,41 +7761,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
     </fields>
-    <fields>
-        <fullName>copadoccmint__Enable_Logs__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Enable Logs</label>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>copadoccmint__External_Id__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>true</externalId>
-        <label>External Id</label>
-        <length>255</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>copadoccmint__JIRA_key__c</fullName>
-        <caseSensitive>false</caseSensitive>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>JIRA key</label>
-        <length>255</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>true</unique>
-    </fields>
     <label>User Story</label>
     <listViews>
         <fullName>copado__All</fullName>
@@ -7905,18 +7769,16 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>copado__User_Story_Title__c</columns>
         <columns>copado__Status__c</columns>
         <columns>copado__Priority__c</columns>
-        <columns>copado__Promote_Change__c</columns>
         <columns>copado__Order__c</columns>
         <columns>copado__US_Feature__c</columns>
-        <columns>copadoccmint__JIRA_key__c</columns>
         <columns>copado__Epic__c</columns>
         <columns>copado__Theme__c</columns>
         <columns>copado__Project__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>RECORDTYPE</field>
-            <operation>equals</operation>
-            <value>copado__User_Story__c.copado__User_Story</value>
+            <field>copado__Priority__c</field>
+            <operation>notEqual</operation>
+            <value>3</value>
         </filters>
         <label>All</label>
     </listViews>
@@ -7949,25 +7811,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <active>true</active>
         <label>Bug</label>
         <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
                 <fullName>Accepted</fullName>
@@ -8393,10 +8236,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Done</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Draft</fullName>
                 <default>true</default>
             </values>
@@ -8410,10 +8249,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8423,25 +8258,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <active>true</active>
         <label>Investigation</label>
         <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
                 <fullName>Accepted</fullName>
@@ -8867,10 +8683,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Done</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Draft</fullName>
                 <default>true</default>
             </values>
@@ -8884,10 +8696,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8897,25 +8705,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <active>true</active>
         <label>User Story</label>
         <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
                 <fullName>Accepted</fullName>
@@ -9341,10 +9130,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Done</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Draft</fullName>
                 <default>true</default>
             </values>
@@ -9358,10 +9143,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9371,25 +9152,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <active>true</active>
         <label>Utility</label>
         <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
                 <fullName>Accepted</fullName>
@@ -9815,10 +9577,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Done</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Draft</fullName>
                 <default>true</default>
             </values>
@@ -9832,10 +9590,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9868,14 +9622,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
-        <fullName>JIRA_key_and_External_ID</fullName>
-        <active>false</active>
-        <errorConditionFormula>AND(
-OR(ISBLANK( copadoccmint__JIRA_key__c ), ISBLANK( copadoccmint__External_Id__c )) ,
-NOT(AND(ISBLANK(copadoccmint__JIRA_key__c), ISBLANK(copadoccmint__External_Id__c))))</errorConditionFormula>
-        <errorMessage>You. need to fill both key and external ID for userstory while creating them manually</errorMessage>
-    </validationRules>
-    <validationRules>
         <fullName>copado__Cancellation_reason_required</fullName>
         <active>false</active>
         <errorConditionFormula>AND(
@@ -9892,17 +9638,6 @@ NOT(AND(ISBLANK(copadoccmint__JIRA_key__c), ISBLANK(copadoccmint__External_Id__c
 NOT ( ISBLANK(copado__Org_Credential__c) ) &amp;&amp;
 copado__Environment__c != copado__Org_Credential__r.copado__Environment__c</errorConditionFormula>
         <errorMessage>The credential must belong to the environment.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>copado__Excluded_User_Stories_Not_Promotable</fullName>
-        <active>true</active>
-        <description>If &apos;Excluded from CBM&apos; is enable, the user story can not be mark as &quot;Ready To Promote&quot; or &quot;Promote &amp; Deploy&quot;</description>
-        <errorConditionFormula>IF(
-  AND(NOT(ISBLANK(copado__Platform__c)), copado__Platform__c != &apos;Salesforce&apos;), 
-  (IF(AND(copado__Exclude_From_CBM__c, OR(copado__Promote_Change__c, copado__Promote_and_Deploy__c)), TRUE, FALSE)),
-  FALSE
-)</errorConditionFormula>
-        <errorMessage>You cannot enable the &quot;Ready to Promote&quot; or the &quot;Promote &amp; Deploy&quot; options because the &quot;Exclude from Pipeline&quot; option is enabled. Please disable this option first and try again.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>copado__Promote_User_Story_Apex_validation</fullName>
