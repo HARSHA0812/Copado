@@ -14,7 +14,7 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>sample dashboard. copy</description>
     <isGridLayout>true</isGridLayout>
-    <runningUser>hvardhangaddam@dev1.copado</runningUser>
+    <runningUser>hvardhangaddam@uat.copado</runningUser>
     <textColor>#000000</textColor>
     <title>ccopy Sample dashboard</title>
     <titleColor>#000000</titleColor>
