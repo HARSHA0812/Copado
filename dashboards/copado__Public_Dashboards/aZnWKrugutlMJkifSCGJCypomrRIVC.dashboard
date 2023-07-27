@@ -12,11 +12,11 @@
         <rowHeight>36</rowHeight>
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
-    <description>sample dashboard. copy</description>
+    <description>created user</description>
     <isGridLayout>true</isGridLayout>
-    <runningUser>hvardhangaddam@uat.copado</runningUser>
+    <runningUser>hvardhangaddam@dev1.copado</runningUser>
     <textColor>#000000</textColor>
-    <title>ccopy Sample dashboard</title>
+    <title>Created user</title>
     <titleColor>#000000</titleColor>
     <titleSize>12</titleSize>
 </Dashboard>

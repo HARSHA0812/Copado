@@ -8,15 +8,15 @@
     <dashboardChartTheme>light</dashboardChartTheme>
     <dashboardColorPalette>unity</dashboardColorPalette>
     <dashboardGridLayout>
-        <numberOfColumns>12</numberOfColumns>
+        <numberOfColumns>9</numberOfColumns>
         <rowHeight>36</rowHeight>
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
-    <description>sample dashboard. copy</description>
+    <description>spc dashboard</description>
     <isGridLayout>true</isGridLayout>
-    <runningUser>hvardhangaddam@uat.copado</runningUser>
+    <runningUser>gharshavardhan11@gmail.com.dev1.invalid</runningUser>
     <textColor>#000000</textColor>
-    <title>ccopy Sample dashboard</title>
+    <title>Specified user dashboard</title>
     <titleColor>#000000</titleColor>
     <titleSize>12</titleSize>
 </Dashboard>
