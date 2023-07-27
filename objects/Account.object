@@ -269,9 +269,9 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Bundled_Field__c</fullName>
+        <fullName>Bundled_Field_2__c</fullName>
         <externalId>false</externalId>
-        <label>Bundled Field</label>
+        <label>Bundled Field 2</label>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
