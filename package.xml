@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Bundled_Field__c</members>
-        <name>CustomField</name>
+        <members>copado__Copado</members>
+        <members>copado__CopadoTests</members>
+        <members>copado__Copado_Console</members>
+        <name>CustomApplication</name>
     </types>
     <types>
-        <members>Admin</members>
+        <members>Account_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>1 - ES Sales User %28Sales Manager%29</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Account.External</members>
+        <name>RecordType</name>
     </types>
     <version>58.0</version>
 </Package>
