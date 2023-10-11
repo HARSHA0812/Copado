@@ -65,14 +65,6 @@
         <label><!-- Package Type --></label>
         <name>copado__Package_Type__c</name>
         <picklistValues>
-            <masterLabel>First-Generation Package</masterLabel>
-            <translation><!-- First-Generation Package --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Second-Generation Package</masterLabel>
-            <translation><!-- Second-Generation Package --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Unlocked</masterLabel>
             <translation>ロック解除</translation>
         </picklistValues>

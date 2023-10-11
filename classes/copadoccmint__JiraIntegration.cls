@@ -337,6 +337,7 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
             } else if (fields.get(cf) instanceof List<Object> && cf == RELEASE_REST_NAME) {
                 List<Object> tempObject = (List<Object>) fields.get(cf);
                 if (tempObject.isEmpty()) {
+                    keyValuepairs.put(cf.toLowerCase(), null);
                     continue;
                 }
                 Map<String, Object> result = (Map<String, Object>) tempObject[0];
