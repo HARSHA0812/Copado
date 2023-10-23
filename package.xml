@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Bundled_Field_2__c</members>
-        <name>CustomField</name>
+        <members>Account_Record_Page</members>
+        <name>FlexiPage</name>
     </types>
     <types>
-        <members>Admin</members>
-        <name>Profile</name>
+        <members>/New_User_Stories_with_Release_Report_ID7</members>
+        <name>Report</name>
     </types>
     <version>58.0</version>
 </Package>
