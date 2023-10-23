@@ -4,9 +4,5 @@
         <members>Account_Record_Page</members>
         <name>FlexiPage</name>
     </types>
-    <types>
-        <members>/New_User_Stories_with_Release_Report_ID7</members>
-        <name>Report</name>
-    </types>
     <version>58.0</version>
 </Package>
