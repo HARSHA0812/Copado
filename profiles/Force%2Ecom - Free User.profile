@@ -19044,10 +19044,6 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-report</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Force.com - Free</userLicense>
     <userPermissions>
         <enabled>true</enabled>
