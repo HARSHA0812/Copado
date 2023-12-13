@@ -9,7 +9,13 @@
     <enableCrossOrgRedirects>true</enableCrossOrgRedirects>
     <enablePermissionsPolicy>false</enablePermissionsPolicy>
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
-    <networkAccess/>
+    <networkAccess>
+        <ipRanges>
+            <description>twst 1</description>
+            <end>35.236.3.65</end>
+            <start>35.236.3.65</start>
+        </ipRanges>
+    </networkAccess>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
         <expiration>NinetyDays</expiration>
