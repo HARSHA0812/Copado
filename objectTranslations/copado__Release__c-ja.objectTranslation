@@ -51,6 +51,10 @@
         <label><!-- Version --></label>
         <name>copado__Version__c</name>
     </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>copadoccmint__External_Id__c</name>
+    </fields>
     <nameFieldLabel><!-- Release Name --></nameFieldLabel>
     <validationRules>
         <errorMessage><!-- please dont include spaces in version field --></errorMessage>

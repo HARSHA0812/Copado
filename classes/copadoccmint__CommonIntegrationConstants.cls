@@ -1,5 +1,6 @@
 public virtual with sharing class CommonIntegrationConstants {
     protected final String DONT_EXCLUDE_FROM_THIRD_PARTY = ' and Exclude_from_tpu__c = false';
+    protected final String DONT_EXCLUDE_FROM_SALESFORCE = ' and Exclude_from_su__c = false';
     protected final String EMPTY_CHAR = '';
     protected final String ONE_CHAR = ' ';
     protected final String COMMA = ',';
