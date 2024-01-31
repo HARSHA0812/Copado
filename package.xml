@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account_Record_Page</members>
-        <name>FlexiPage</name>
+        <members>copado__Project__c.copadoccmint__Project_External_Id__c</members>
+        <members>copado__User_Story__c.copadoccmint__JIRA_key__c</members>
+        <name>CustomField</name>
     </types>
-    <version>58.0</version>
+    <types>
+        <members>copado__User_Story__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>59.0</version>
 </Package>
