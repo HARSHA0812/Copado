@@ -240,6 +240,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -286,6 +294,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -452,6 +462,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -498,6 +516,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -668,6 +688,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -715,6 +743,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -881,6 +911,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -927,6 +965,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1097,6 +1137,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -1144,6 +1192,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1310,6 +1360,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -1356,6 +1414,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1526,6 +1586,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -1573,6 +1641,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1739,6 +1809,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -1785,6 +1863,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1955,6 +2035,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -2002,6 +2090,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2168,6 +2258,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -2214,6 +2312,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2384,6 +2484,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -2431,6 +2539,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2597,6 +2707,14 @@
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>TERR2_NAME</field>
+            <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>TERR2_DESC</field>
+            <label>Territory Description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -2643,6 +2761,8 @@
             <field>00N5g00000VFunh</field>
             <field>00N5g00000VFuni</field>
             <field>00N5g00000VFunj</field>
+            <field>TERR2_NAME</field>
+            <field>TERR2_DESC</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
