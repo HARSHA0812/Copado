@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>MyClass1</members>
         <members>MyClass2</members>
+        <members>TestMyClass1</members>
         <members>TestMyClass2</members>
         <name>ApexClass</name>
     </types>
