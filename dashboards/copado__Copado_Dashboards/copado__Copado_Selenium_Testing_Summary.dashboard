@@ -125,6 +125,7 @@
             <useReportChart>true</useReportChart>
         </components>
     </middleSection>
+    <owner>hvardhangaddam@dev1.copado</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
