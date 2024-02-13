@@ -11620,11 +11620,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Sample__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.ShippingAddress</field>
         <readable>true</readable>
     </fieldPermissions>

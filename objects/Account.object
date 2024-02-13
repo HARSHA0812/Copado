@@ -454,14 +454,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Sample__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Sample</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
