@@ -5,6 +5,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Sales Emails and Alerts</label>
     <logo>pi__Sales_Edge_Documents/pi__salesforce_engage_icon_64x64.png</logo>
     <tabs>standard-Lead</tabs>

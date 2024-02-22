@@ -5,6 +5,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Pardot Classic (Retired)</label>
     <logo>pi__ProspectInsight/pi__ProspectInsightLogo.png</logo>
     <tabs>pi__ProspectInsight</tabs>
