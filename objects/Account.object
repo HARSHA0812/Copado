@@ -1013,6 +1013,11 @@
         </picklistValues>
     </recordTypes>
     <recordTypes>
+        <fullName>Harsha</fullName>
+        <active>true</active>
+        <label>Harsha</label>
+    </recordTypes>
+    <recordTypes>
         <fullName>Internal</fullName>
         <active>true</active>
         <label>Internal</label>
