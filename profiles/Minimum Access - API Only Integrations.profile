@@ -9847,6 +9847,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Harsha__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.HasOptedOutOfEmail</field>
         <readable>false</readable>
@@ -18906,6 +18911,10 @@
         <field>pi__Pardot_Scoring_Category__c.pi__Pardot_Account_Id__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Account-Copy of Account %28Harsha%29 Layout</layout>
+        <recordType>Account.Harsha</recordType>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>copado__AddCCHRuleCriteria</apexPage>
         <enabled>false</enabled>
