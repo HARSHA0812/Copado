@@ -357,6 +357,15 @@ TEXT(copado__Last_Status__c)
     </fields>
     <label>Selenium Test Run</label>
     <listViews>
+        <fullName>Harsha_support_Selenium_Test_Run</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Selenium_Test_Suite__c</columns>

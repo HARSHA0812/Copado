@@ -219,6 +219,15 @@
         <type>DateTime</type>
     </fields>
     <label>AsyncRequest</label>
+    <listViews>
+        <fullName>Harsha_support_AsyncRequest</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>AR-{0000}</displayFormat>
         <label>AsyncRequest</label>

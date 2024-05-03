@@ -287,6 +287,15 @@
     </fields>
     <label>Lead Deck Filter</label>
     <listViews>
+        <fullName>Harsha_support_LDFilter</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>pi__All</fullName>
         <columns>pi__title__c</columns>
         <columns>CREATEDBY_USER</columns>

@@ -354,6 +354,15 @@
     </fields>
     <label>Copado Integration</label>
     <listViews>
+        <fullName>Harsha_support_Copado_Integration</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>copadoconnect__All</fullName>
         <columns>NAME</columns>
         <columns>copadoconnect__Provider__c</columns>

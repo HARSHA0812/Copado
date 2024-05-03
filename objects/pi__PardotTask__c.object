@@ -217,6 +217,15 @@
         <unique>true</unique>
     </fields>
     <label>Pardot Task</label>
+    <listViews>
+        <fullName>Harsha_support_PardotTask</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <label>Pardot Task Name</label>
         <type>Text</type>

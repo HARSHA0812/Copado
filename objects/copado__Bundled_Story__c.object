@@ -598,6 +598,15 @@
         <type>Lookup</type>
     </fields>
     <label>Bundled Story</label>
+    <listViews>
+        <fullName>Harsha_support_Bundled_Story</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>BS-{0000000}</displayFormat>
         <label>Bundled Story Name</label>

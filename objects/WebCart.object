@@ -201,6 +201,15 @@
         <label>All Active Carts</label>
     </listViews>
     <listViews>
+        <fullName>Harsha_support_WebCart</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>Owned_WebCarts</fullName>
         <columns>Name</columns>
         <columns>CreatedDate</columns>

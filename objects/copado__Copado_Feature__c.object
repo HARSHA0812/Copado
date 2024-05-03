@@ -369,6 +369,15 @@
         </valueSet>
     </fields>
     <label>Feature (deprecated)</label>
+    <listViews>
+        <fullName>Harsha_support_Copado_Feature</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>F-{0000000000}</displayFormat>
         <label>Feature Name</label>

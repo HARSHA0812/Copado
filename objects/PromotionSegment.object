@@ -147,6 +147,15 @@
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>Harsha_support_PromotionSegment</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts/>
     <sharingModel>Private</sharingModel>
 </CustomObject>

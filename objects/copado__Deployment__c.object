@@ -1147,6 +1147,15 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
     </fields>
     <label>Deployment</label>
     <listViews>
+        <fullName>Harsha_support_Deployment</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>RECORDTYPE</columns>

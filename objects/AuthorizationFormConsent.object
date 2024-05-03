@@ -179,6 +179,15 @@
         <filterScope>Everything</filterScope>
         <label>All Authorization Form Consents</label>
     </listViews>
+    <listViews>
+        <fullName>Harsha_support_AuthorizationFormConsent</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ConsentGiver</customTabListAdditionalFields>
         <customTabListAdditionalFields>AuthorizationFormText</customTabListAdditionalFields>

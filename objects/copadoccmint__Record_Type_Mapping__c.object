@@ -190,6 +190,15 @@
         <unique>false</unique>
     </fields>
     <label>Record Type Mapping</label>
+    <listViews>
+        <fullName>Harsha_support_Record_Type_Mapping</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>RTM-{000000000}</displayFormat>
         <label>Record Type Mapping Name</label>

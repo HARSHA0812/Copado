@@ -179,6 +179,15 @@
         </filters>
         <label>Bulk_SMS_Messaging_End_Users</label>
     </listViews>
+    <listViews>
+        <fullName>Harsha_support_MessagingEndUser</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>MessagingPlatformKey</customTabListAdditionalFields>
         <customTabListAdditionalFields>MessagingChannel</customTabListAdditionalFields>

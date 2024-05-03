@@ -195,6 +195,15 @@
         <filterScope>Everything</filterScope>
         <label>All Party Consents</label>
     </listViews>
+    <listViews>
+        <fullName>Harsha_support_PartyConsent</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Party</customTabListAdditionalFields>
         <customTabListAdditionalFields>Action</customTabListAdditionalFields>

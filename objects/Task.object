@@ -246,6 +246,15 @@
         <label>ENCODED:{!FilterNames.Task_DelegatedTasks}</label>
     </listViews>
     <listViews>
+        <fullName>Harsha_support_Task</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>OpenTasks</fullName>
         <columns>SUBJECT</columns>
         <columns>WHO_NAME</columns>

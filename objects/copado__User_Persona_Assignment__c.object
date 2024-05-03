@@ -329,6 +329,15 @@
         <type>Lookup</type>
     </fields>
     <label>User Persona Assignment</label>
+    <listViews>
+        <fullName>Harsha_support_User_Persona_Assignment</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>UPA-{000000000}</displayFormat>
         <label>User Persona Assignment Ref</label>

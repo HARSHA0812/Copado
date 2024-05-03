@@ -151,6 +151,15 @@
         <label>All Buyer Groups</label>
     </listViews>
     <listViews>
+        <fullName>Harsha_support_BuyerGroup</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>My_Buyer_Groups</fullName>
         <columns>Name</columns>
         <columns>Owner</columns>

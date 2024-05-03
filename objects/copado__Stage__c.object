@@ -194,6 +194,15 @@ Production: stage that contains environments where functionality is made availab
     </fields>
     <label>Stage</label>
     <listViews>
+        <fullName>Harsha_support_Stage</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Display_Name__c</columns>

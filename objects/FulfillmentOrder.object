@@ -178,6 +178,15 @@
         <type>Picklist</type>
     </fields>
     <listViews>
+        <fullName>Harsha_support_FulfillmentOrder</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>all_fulfillment_orders</fullName>
         <filterScope>Everything</filterScope>
         <filters>

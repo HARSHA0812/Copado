@@ -264,6 +264,15 @@
         <unique>false</unique>
     </fields>
     <label>Automation Event</label>
+    <listViews>
+        <fullName>Harsha_support_Automation_Event</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>AE-{0000000000}</displayFormat>
         <label>MC Automation Event Name</label>
