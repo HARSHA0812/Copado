@@ -18944,6 +18944,18 @@
         <field>pi__Pardot_Scoring_Category__c.pi__Pardot_Account_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>HArsha_12</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Harsha_13</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Harsha_13_1</flow>
+    </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
         <recordType>Account.Internal</recordType>

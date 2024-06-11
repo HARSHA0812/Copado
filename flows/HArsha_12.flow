@@ -13,6 +13,7 @@
     </assignments>
     <environments>Default</environments>
     <interviewLabel>HArsha 12 {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <isOverridable>true</isOverridable>
     <label>HArsha 12</label>
     <processMetadataValues>
