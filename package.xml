@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Security</members>
-        <name>Settings</name>
+        <members>Contact.Harsha__c</members>
+        <name>CustomField</name>
     </types>
-    <version>59.0</version>
+    <types>
+        <members>ABC%2FCM</members>
+        <members>ABC%2FCM%2FRFS%2FHMS Closing</members>
+        <members>ABC%2FDE 1 - ES Sales User %28Sales Manager%29</members>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <name>Profile</name>
+    </types>
+    <version>60.0</version>
 </Package>
