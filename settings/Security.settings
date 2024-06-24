@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <canUsersGrantLoginAccess>true</canUsersGrantLoginAccess>
-    <enableAdminLoginAsAnyUser>true</enableAdminLoginAsAnyUser>
+    <enableAdminLoginAsAnyUser>false</enableAdminLoginAsAnyUser>
     <enableAuditFieldsInactiveOwner>false</enableAuditFieldsInactiveOwner>
     <enableAuraSecureEvalPref>true</enableAuraSecureEvalPref>
     <enableCoepHeader>false</enableCoepHeader>
     <enableCoopHeader>false</enableCoopHeader>
+    <enableCrossOrgRedirects>true</enableCrossOrgRedirects>
+    <enablePermissionsPolicy>false</enablePermissionsPolicy>
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
-    <networkAccess/>
+    <networkAccess>
+        <ipRanges>
+            <description>twst 1</description>
+            <end>35.236.3.65</end>
+            <start>35.236.3.65</start>
+        </ipRanges>
+    </networkAccess>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
         <expiration>NinetyDays</expiration>
@@ -20,6 +28,7 @@
         <questionRestriction>DoesNotContainPassword</questionRestriction>
     </passwordPolicies>
     <redirectBlockModeEnabled>false</redirectBlockModeEnabled>
+    <sendCspForUncommonClients>false</sendCspForUncommonClients>
     <sessionSettings>
         <allowUserAuthenticationByCertificate>false</allowUserAuthenticationByCertificate>
         <allowUserCertBasedAuthenticationWithOcspValidation>false</allowUserCertBasedAuthenticationWithOcspValidation>
@@ -42,6 +51,7 @@
         <enableLightningLoginOnlyWithUserPerm>false</enableLightningLoginOnlyWithUserPerm>
         <enableMFADirectUILoginOptIn>false</enableMFADirectUILoginOptIn>
         <enableOauthCorsPolicy>false</enableOauthCorsPolicy>
+        <enablePermissionsPolicy>false</enablePermissionsPolicy>
         <enablePostForSessions>false</enablePostForSessions>
         <enableSMSIdentity>true</enableSMSIdentity>
         <enableU2F>false</enableU2F>
@@ -50,6 +60,8 @@
         <enforceUserDeviceRevoked>false</enforceUserDeviceRevoked>
         <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
         <forceRelogin>true</forceRelogin>
+        <grantCameraAccess>TrustedUrls</grantCameraAccess>
+        <grantMicrophoneAccess>TrustedUrls</grantMicrophoneAccess>
         <hasRetainedLoginHints>false</hasRetainedLoginHints>
         <hasUserSwitching>true</hasUserSwitching>
         <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
@@ -62,9 +74,13 @@
         <redirectBlockModeEnabled>false</redirectBlockModeEnabled>
         <redirectionWarning>true</redirectionWarning>
         <referrerPolicy>true</referrerPolicy>
+        <referrerPolicyDirective>origin-when-cross-origin</referrerPolicyDirective>
         <requireHttpOnly>false</requireHttpOnly>
+        <sendCspForUncommonClients>false</sendCspForUncommonClients>
         <sessionTimeout>TwoHours</sessionTimeout>
         <sidToken3rdPartyAuraApp>false</sidToken3rdPartyAuraApp>
+        <skipSFAWhenMFADirectUILogin>false</skipSFAWhenMFADirectUILogin>
+        <useEAPIRateLimitForConnectAPI>false</useEAPIRateLimitForConnectAPI>
         <useLocalStorageForLogoutUrl>false</useLocalStorageForLogoutUrl>
     </sessionSettings>
     <singleSignOnSettings>
