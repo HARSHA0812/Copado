@@ -157,7 +157,6 @@
     <fields>
         <fullName>pi__AsyncType__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>AsyncType</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -176,7 +175,6 @@
     <fields>
         <fullName>pi__Params__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Params</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -212,7 +210,6 @@
         <fullName>pi__Scheduled_Time__c</fullName>
         <defaultValue>NOW()</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scheduled Time</label>
         <required>true</required>
         <trackTrending>false</trackTrending>

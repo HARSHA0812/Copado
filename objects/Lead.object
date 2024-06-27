@@ -380,7 +380,6 @@
     </fields>
     <fields>
         <fullName>Primary__c</fullName>
-        <externalId>false</externalId>
         <label>Primary</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -403,7 +402,6 @@
     </fields>
     <fields>
         <fullName>ProductInterest__c</fullName>
-        <externalId>false</externalId>
         <label>Product Interest</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -467,7 +465,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This field is no longer used.</description>
-        <externalId>false</externalId>
         <label>Needs Score Synced</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
@@ -478,7 +475,6 @@
         <description>Used for Account Engagement Scoring Categories. Indicates the last time a Scoring Category score was updated for this lead.
 
             Scoring Categories are used for multi-product engagement scoring in Account Engagement and are available to customers using Account Engagement Pro Edition and Account Engagement Ultimate Edition. Please visit this page for more information on this feature and how to set up Salesforce to view these scores: http://help.pardot.com/customer/portal/articles/2396977-scoring-categories-overview</description>
-        <externalId>false</externalId>
         <label>Account Engagement Last Scored At</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -499,7 +495,6 @@
     <fields>
         <fullName>pi__comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Account Engagement Comments</label>
         <length>32000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -510,7 +505,6 @@
         <fullName>pi__conversion_date__c</fullName>
         <deprecated>false</deprecated>
         <description>The date and time of the form, form handler, or landing page submission when an Account Engagement tracked anonymous visitor first became a known prospect.</description>
-        <externalId>false</externalId>
         <label>Account Engagement Conversion Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -544,7 +538,6 @@
         <fullName>pi__created_date__c</fullName>
         <deprecated>false</deprecated>
         <description>The Account Engagement created date represents the date and time at which the Prospect record was created in Account Engagement. This will often differ from your Salesforce.com created date.</description>
-        <externalId>false</externalId>
         <label>Account Engagement Created Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -553,7 +546,6 @@
     <fields>
         <fullName>pi__first_activity__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Account Engagement First Activity</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -587,7 +579,6 @@
         <fullName>pi__first_touch_url__c</fullName>
         <deprecated>false</deprecated>
         <description>The value of the referrer for the first tracked request made by a Prospect.</description>
-        <externalId>false</externalId>
         <label>Account Engagement First Referrer</label>
         <length>65000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -609,7 +600,6 @@
     <fields>
         <fullName>pi__last_activity__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Account Engagement Last Activity</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -618,7 +608,6 @@
     <fields>
         <fullName>pi__notes__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Account Engagement Notes</label>
         <length>32000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -630,7 +619,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Boolean that determines whether lead hard bounced.</description>
-        <externalId>false</externalId>
         <label>Account Engagement Hard Bounced</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
@@ -652,7 +640,6 @@
         <fullName>pi__url__c</fullName>
         <deprecated>false</deprecated>
         <description>This link takes you directly into the relevant prospect&apos;s profile within Account Engagement. From there you can view his or her complete activity history. This URL is generated within the Account Engagement system and cannot be edited in Salesforce.com.</description>
-        <externalId>false</externalId>
         <label>Account Engagement URL</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

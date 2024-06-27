@@ -159,7 +159,6 @@
         <fullName>pi__ErrorMessage__c</fullName>
         <deprecated>false</deprecated>
         <description>Any error that occurred during Task creation</description>
-        <externalId>false</externalId>
         <label>ErrorMessage</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -183,7 +182,6 @@
         <fullName>pi__SerializedTask__c</fullName>
         <deprecated>false</deprecated>
         <description>Holds JSON data representing the Task (sObject) fields and values to be inserted/updated.</description>
-        <externalId>false</externalId>
         <label>SerializedTask</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>

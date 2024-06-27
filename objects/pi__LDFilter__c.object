@@ -160,7 +160,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>user that owns this filter</description>
-        <externalId>false</externalId>
         <inlineHelpText>user that owns this filter</inlineHelpText>
         <label>User</label>
         <referenceTo>User</referenceTo>
@@ -174,7 +173,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>field for determining if the &quot;all&quot; tag should be true in Cassandra</description>
-        <externalId>false</externalId>
         <label>Assigned to All Users</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -195,7 +193,6 @@
         <fullName>pi__criteria__c</fullName>
         <deprecated>false</deprecated>
         <description>logical expression of criteria</description>
-        <externalId>false</externalId>
         <label>Criteria</label>
         <length>131000</length>
         <trackTrending>false</trackTrending>
@@ -207,7 +204,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>boolean to determine whether this is this a default filter</description>
-        <externalId>false</externalId>
         <inlineHelpText>boolean to determine whether this is this a default filter</inlineHelpText>
         <label>Default Filter</label>
         <trackTrending>false</trackTrending>
@@ -230,7 +226,6 @@
         <fullName>pi__metadata__c</fullName>
         <deprecated>false</deprecated>
         <description>field to store filter metadata</description>
-        <externalId>false</externalId>
         <label>Metadata</label>
         <length>32000</length>
         <trackTrending>false</trackTrending>
@@ -254,7 +249,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>boolean to determine whether notifications should be shown on the desktop version</description>
-        <externalId>false</externalId>
         <inlineHelpText>boolean to determine whether notifications should be shown on the desktop version</inlineHelpText>
         <label>Show Notifications</label>
         <trackTrending>false</trackTrending>

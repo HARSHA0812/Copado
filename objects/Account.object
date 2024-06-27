@@ -240,14 +240,12 @@
     <fields>
         <fullName>Account_checkbox__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Account checkbox</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Active__c</fullName>
-        <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -302,7 +300,6 @@
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
-        <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -360,7 +357,6 @@
     </fields>
     <fields>
         <fullName>Languages__c</fullName>
-        <externalId>false</externalId>
         <label>Languages</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -547,7 +543,6 @@
     </fields>
     <fields>
         <fullName>SLAExpirationDate__c</fullName>
-        <externalId>false</externalId>
         <label>SLA Expiration Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -565,7 +560,6 @@
     </fields>
     <fields>
         <fullName>SLA__c</fullName>
-        <externalId>false</externalId>
         <label>SLA</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -630,7 +624,6 @@
     </fields>
     <fields>
         <fullName>UpsellOpportunity__c</fullName>
-        <externalId>false</externalId>
         <label>Upsell Opportunity</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -667,7 +660,6 @@
     <fields>
         <fullName>sample__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>sample</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>

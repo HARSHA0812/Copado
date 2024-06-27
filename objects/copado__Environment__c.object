@@ -158,7 +158,6 @@
         <fullName>copado__Compliance_Rule_Group__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance Rule Group</label>
         <referenceTo>copado__Compliance_Rule_Group__c</referenceTo>
         <relationshipLabel>Environments</relationshipLabel>
@@ -170,7 +169,6 @@
     <fields>
         <fullName>copado__Compliance_Scan_Events__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance Scan Events</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -209,7 +207,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The default Behavior for Connections into this Environment</description>
-        <externalId>false</externalId>
         <label>Incoming Connection Behavior</label>
         <referenceTo>copado__Connection_Behavior__c</referenceTo>
         <relationshipLabel>Environment Default Behavior</relationshipLabel>
@@ -221,7 +218,6 @@
     <fields>
         <fullName>copado__Current_Code_Coverage__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Current Code Coverage</label>
         <precision>18</precision>
         <required>false</required>
@@ -247,7 +243,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable Rollbacks for any Deployments/Promotions have this Environment as destination. Rollbacks will be available for Deployments/Promotions created after this feature is enabled</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable Rollbacks for any Deployments/Promotions have this Environment as destination. Rollbacks will be available for Deployments/Promotions created after this feature is enabled</inlineHelpText>
         <label>Enable Rollback</label>
         <trackTrending>false</trackTrending>
@@ -257,7 +252,6 @@
         <fullName>copado__Index_Back_Promotion_metadata__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If enabled, when a Back Promotion is completed and contains Metadata found in User Stories in the destination Environment, the status of the User Story Metadata records of these User Stories will be updated to &quot;Back Promoted&quot;.</inlineHelpText>
         <label>Index Back Promotion Metadata</label>
         <trackTrending>false</trackTrending>
@@ -266,7 +260,6 @@
     <fields>
         <fullName>copado__Last_Compliance_Scan_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Compliance Scan Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -275,7 +268,6 @@
     <fields>
         <fullName>copado__Last_Refresh_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Refresh Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -284,7 +276,6 @@
     <fields>
         <fullName>copado__Latest_Deployment_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Latest Deployment Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -340,7 +331,6 @@
         <fullName>copado__Latest_Deployment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Latest Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Environments</relationshipLabel>
@@ -366,7 +356,6 @@
         <fullName>copado__Minimum_Apex_Test_Coverage__c</fullName>
         <defaultValue>0.75</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Set the Minimum Apex Test Coverage here which will be used for Apex Test Results on the Org Credential detail page.</inlineHelpText>
         <label>Minimum Apex Test Coverage</label>
         <precision>3</precision>
@@ -403,7 +392,6 @@
         <fullName>copado__Platform__c</fullName>
         <defaultValue>&quot;Salesforce&quot;</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Platform</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -427,7 +415,6 @@
     <fields>
         <fullName>copado__Promotion_Default_Credential__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The Default Credential for the target Org is always selected by default. Optionally, the Default Credential can be selected only if the user has no Org Credential for the target Org.</inlineHelpText>
         <label>Promotion Default Credential</label>
         <required>false</required>
@@ -460,7 +447,6 @@
         <fullName>copado__Run_all_tests__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If selected, &quot;Run all local tests&quot; will be enforced when deploying to this environment.</inlineHelpText>
         <label>Run all local tests</label>
         <trackTrending>false</trackTrending>
@@ -469,7 +455,6 @@
     <fields>
         <fullName>copado__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -498,7 +483,6 @@
     <fields>
         <fullName>copado__Validation_Promotion_Default_Credential__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The Default Credential for the target Org is always selected by default. Optionally, the Default Credential can be selected only if the user has no Org Credential for the target Org.</inlineHelpText>
         <label>Validation Promotion Default Credential</label>
         <required>false</required>

@@ -161,7 +161,6 @@ Scoring Categories are used for multi-product engagement scoring in Pardot and a
         <fullName>pi__Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Contact</label>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Pardot Category Scores (Contact)</relationshipLabel>
@@ -184,7 +183,6 @@ Scoring Categories are used for multi-product engagement scoring in Pardot and a
     <fields>
         <fullName>pi__Pardot_Scoring_Category__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pardot Scoring Category</label>
         <referenceTo>pi__Pardot_Scoring_Category__c</referenceTo>
         <relationshipName>Category_Contact_Scores</relationshipName>

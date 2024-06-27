@@ -299,7 +299,6 @@
         <fullName>copado__Hide_Copado_feedback__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The visibility of the message asking users to rate &amp; feedback Copado on the AppExchange is controlled here.</inlineHelpText>
         <label>Hide Copado feedback</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -309,7 +308,6 @@
         <fullName>copado__Show_Copado_Tips__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Show Copado Tips</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
@@ -318,7 +316,6 @@
         <fullName>copado__Work_Manager_Panels__c</fullName>
         <deprecated>false</deprecated>
         <description>JSON containing current user panels on the Backlog</description>
-        <externalId>false</externalId>
         <label>Work Manager Panels</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -329,7 +326,6 @@
         <fullName>pi__Can_View_Not_Assigned_Prospects__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Can View Not Assigned Prospects</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
@@ -337,7 +333,6 @@
     <fields>
         <fullName>pi__Pardot_Api_Key__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Account Engagement Api Key</label>
         <length>100</length>
         <maskChar>X</maskChar>
@@ -359,7 +354,6 @@
     <fields>
         <fullName>pi__Pardot_User_Id__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Account Engagement User Id</label>
         <length>100</length>
         <maskChar>X</maskChar>
@@ -370,7 +364,6 @@
     <fields>
         <fullName>pi__Pardot_User_Key__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Account Engagement User Key</label>
         <length>100</length>
         <maskChar>X</maskChar>

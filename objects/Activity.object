@@ -125,7 +125,6 @@
     </fields>
     <fields>
         <fullName>Sample_activity__c</fullName>
-        <externalId>false</externalId>
         <label>Sample activity</label>
         <required>false</required>
         <type>Picklist</type>
@@ -154,7 +153,6 @@
     <fields>
         <fullName>check__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>check</label>
         <type>Checkbox</type>
     </fields>
@@ -170,7 +168,6 @@
     </fields>
     <fields>
         <fullName>website__c</fullName>
-        <externalId>false</externalId>
         <label>website</label>
         <required>false</required>
         <type>Picklist</type>
