@@ -6,20 +6,19 @@
         <visible>true</visible>
     </applicationVisibilities>
     <custom>true</custom>
-    <flowAccesses>
-        <enabled>true</enabled>
-        <flow>HArsha_12</flow>
-    </flowAccesses>
+    <loginFlows>
+        <flow>test</flow>
+        <flowType>UI</flowType>
+        <friendlyName>Flow 1</friendlyName>
+        <uiLoginFlowType>VisualWorkflow</uiLoginFlowType>
+        <useLightningRuntime>false</useLightningRuntime>
+    </loginFlows>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Case.Support</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ActivateSystemModeFlows</name>
-    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivitiesAccess</name>
@@ -150,19 +149,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageInteraction</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>MassInlineEdit</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>RemoveDirectMessageMembers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>RunFlow</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -199,10 +190,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewDeveloperName</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewFlowUsageAndFlowEventData</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
