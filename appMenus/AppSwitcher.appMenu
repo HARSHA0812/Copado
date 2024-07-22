@@ -192,4 +192,8 @@
         <name>standard__FlowsApp</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Harsha_Deployer</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
