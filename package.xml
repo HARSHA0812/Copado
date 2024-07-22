@@ -5,17 +5,11 @@
         <name>BusinessProcess</name>
     </types>
     <types>
-        <members>Harsha_Deployer_UtilityBar</members>
-        <members>test_10</members>
-        <name>FlexiPage</name>
+        <members>standard__Sales</members>
+        <name>CustomApplication</name>
     </types>
     <types>
-        <members>ABC%2FCM</members>
-        <members>ABC%2FCM%2FRFS%2FHMS Closing</members>
-        <members>ABC%2FDE 1 - ES Sales User %28Sales Manager%29</members>
-        <members>Analytics Cloud Integration User</members>
-        <members>Analytics Cloud Security User</members>
-        <members>Standard</members>
+        <members>Read Only</members>
         <name>Profile</name>
     </types>
     <types>
