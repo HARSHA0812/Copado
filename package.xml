@@ -14,8 +14,13 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>1 - ES Sales User %28Sales Manager%29</members>
+        <members>ABC%2FCM</members>
+        <members>ABC%2FCM%2FRFS%2FHMS Closing</members>
+        <members>ABC%2FDE 1 - ES Sales User %28Sales Manager%29</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
         <members>Standard</members>
         <name>Profile</name>
     </types>
