@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>standard__Sales</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>Harsha_Case_page</members>
         <members>Harsha_Deployer_UtilityBar</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Read Only</members>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Case.Support</members>
+        <name>RecordType</name>
     </types>
     <version>61.0</version>
 </Package>
