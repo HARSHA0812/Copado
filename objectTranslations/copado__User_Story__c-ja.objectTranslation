@@ -69,6 +69,10 @@
         <name>copado__Work_Manager_Relations</name>
     </fieldSets>
     <fields>
+        <label><!-- ADO Text area --></label>
+        <name>ADO_Text_area__c</name>
+    </fields>
+    <fields>
         <label><!-- Acceptance Criteria Status --></label>
         <name>copado__Acceptance_Criteria_Status__c</name>
         <picklistValues>
@@ -855,19 +859,11 @@
         <label><!-- JIRA key --></label>
         <name>copadoccmint__JIRA_key__c</name>
     </fields>
-    <fields>
-        <label><!-- Connect log --></label>
-        <name>copadoconnect__Connect_log__c</name>
-    </fields>
-    <fields>
-        <label><!-- External ID --></label>
-        <name>copadoconnect__External_ID__c</name>
-    </fields>
-    <fields>
-        <label><!-- Last Synced Date --></label>
-        <name>copadoconnect__Last_Synced_Date__c</name>
-    </fields>
     <nameFieldLabel><!-- User Story Reference --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Issue --></label>
+        <name>Issue</name>
+    </recordTypes>
     <recordTypes>
         <label><!-- Bug --></label>
         <name>copado__Bug</name>

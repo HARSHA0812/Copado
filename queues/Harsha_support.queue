@@ -471,15 +471,6 @@
         <sobjectType>copadoccmint__Record_Type_Mapping__c</sobjectType>
     </queueSobject>
     <queueSobject>
-        <sobjectType>copadoconnect__Copado_Integration__c</sobjectType>
-    </queueSobject>
-    <queueSobject>
-        <sobjectType>copadoconnect__Field_Value_Mapping__c</sobjectType>
-    </queueSobject>
-    <queueSobject>
-        <sobjectType>copadoconnect__Integration_Log__c</sobjectType>
-    </queueSobject>
-    <queueSobject>
         <sobjectType>pi__AsyncRequest__c</sobjectType>
     </queueSobject>
     <queueSobject>
