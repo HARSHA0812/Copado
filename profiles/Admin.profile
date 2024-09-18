@@ -10011,6 +10011,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityTeamMember.External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Order.ActivatedById</field>
         <readable>true</readable>
@@ -11003,6 +11008,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>TimeSlot.WorkTypeGroupId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
