@@ -151,6 +151,15 @@
         <filterScope>Everything</filterScope>
         <label>All Customers</label>
     </listViews>
+    <listViews>
+        <fullName>Harsha_support_Customer</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>TotalLifeTimeValue</customTabListAdditionalFields>
         <searchResultsAdditionalFields>TotalLifeTimeValue</searchResultsAdditionalFields>

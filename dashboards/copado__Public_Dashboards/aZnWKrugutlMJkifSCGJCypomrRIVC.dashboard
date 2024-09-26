@@ -14,6 +14,7 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>created user</description>
     <isGridLayout>true</isGridLayout>
+    <owner>hvardhangaddam@dev1.copado</owner>
     <runningUser>hvardhangaddam@dev1.copado</runningUser>
     <textColor>#000000</textColor>
     <title>Created user</title>

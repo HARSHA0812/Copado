@@ -222,11 +222,29 @@
         <fullName>TimeZone</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>VisitorAddressId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>Harsha_support_Location</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>VisitorAddress</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>VisitorAddress</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>VisitorAddress</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VisitorAddress</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

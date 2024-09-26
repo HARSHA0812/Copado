@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -179,7 +178,6 @@
         <fullName>copado__Sprint__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Sprint</label>
         <referenceTo>copado__Sprint__c</referenceTo>
         <relationshipLabel>Burndown Items</relationshipLabel>
@@ -201,6 +199,15 @@
         <unique>false</unique>
     </fields>
     <label>Burndown Item</label>
+    <listViews>
+        <fullName>Harsha_support_Burndown_Item</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>

@@ -147,6 +147,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>RedemptionLimitAllBuyers</fullName>
+        <inlineHelpText>Number of times this coupon can be used in total.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RedemptionLimitPerBuyer</fullName>
+        <inlineHelpText>Number of times this coupon can be used per customer.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>StartDateTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -158,6 +168,15 @@
         <fullName>ALL_Coupons</fullName>
         <filterScope>Everything</filterScope>
         <label>All Coupons</label>
+    </listViews>
+    <listViews>
+        <fullName>Harsha_support_Coupon</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CouponCode</customTabListAdditionalFields>

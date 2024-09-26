@@ -14,6 +14,7 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>spc dashboard</description>
     <isGridLayout>true</isGridLayout>
+    <owner>hvardhangaddam@dev1.copado</owner>
     <runningUser>gharshavardhan11@gmail.com.dev1.invalid</runningUser>
     <textColor>#000000</textColor>
     <title>Specified user dashboard</title>

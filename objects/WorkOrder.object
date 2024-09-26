@@ -312,6 +312,15 @@
         <label>All Work Orders</label>
     </listViews>
     <listViews>
+        <fullName>Harsha_support_WorkOrder</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>My_WorkOrders</fullName>
         <filterScope>Mine</filterScope>
         <label>My Work Orders</label>

@@ -179,6 +179,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>AppointmentMode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>AppointmentType</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
@@ -196,7 +200,18 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>AttendeeCount</fullName>
+    </fields>
+    <fields>
+        <fullName>AttendeeLimit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CancellationReason</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CheckedInTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -236,6 +251,10 @@
         <fullName>EngagementChannelTypeId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>GroupAppointmentAccessType</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>IsAnonymousBooking</fullName>
@@ -317,6 +336,15 @@
         <label>All Service Appointments</label>
     </listViews>
     <listViews>
+        <fullName>Harsha_support_ServiceAppointment</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>MyPendingAppointments</fullName>
         <columns>Name</columns>
         <columns>SchedStartTime</columns>
@@ -381,6 +409,7 @@
         <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ArrivalWindowStartTime</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ArrivalWindowEndTime</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Phone</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>ParentRecord</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ParentRecordType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
