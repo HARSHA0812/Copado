@@ -269,9 +269,9 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Bundled_Field__c</fullName>
+        <fullName>Bundled_Field_2__c</fullName>
         <externalId>false</externalId>
-        <label>Bundled Field</label>
+        <label>Bundled Field 2</label>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -335,6 +335,45 @@
     <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Languages__c</fullName>
+        <externalId>false</externalId>
+        <label>Languages</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>test1</fullName>
+                    <default>false</default>
+                    <label>test1</label>
+                </value>
+                <value>
+                    <fullName>test2</fullName>
+                    <default>false</default>
+                    <label>test2</label>
+                </value>
+                <value>
+                    <fullName>test3</fullName>
+                    <default>false</default>
+                    <label>test3</label>
+                </value>
+                <value>
+                    <fullName>test4</fullName>
+                    <default>false</default>
+                    <label>test4</label>
+                </value>
+                <value>
+                    <fullName>Test6</fullName>
+                    <default>false</default>
+                    <label>Test6</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>NaicsCode</fullName>
@@ -454,14 +493,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Sample__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Sample</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -529,6 +560,14 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>sample__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>sample</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
@@ -569,6 +608,35 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
+    <recordTypes>
+        <fullName>External</fullName>
+        <active>true</active>
+        <label>External</label>
+        <picklistValues>
+            <picklist>Languages__c</picklist>
+            <values>
+                <fullName>test1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Harsha</fullName>
+        <active>true</active>
+        <label>Harsha</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>

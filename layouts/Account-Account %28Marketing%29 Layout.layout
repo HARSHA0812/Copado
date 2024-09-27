@@ -31,10 +31,6 @@
                 <behavior>Edit</behavior>
                 <field>Premier_Customer__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sample__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -184,8 +180,8 @@
                 <customLink>Billing</customLink>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <platformActionList>
