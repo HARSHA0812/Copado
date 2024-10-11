@@ -19546,6 +19546,10 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
     <userLicense>Authenticated Website</userLicense>
     <userPermissions>
         <enabled>true</enabled>

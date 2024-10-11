@@ -19780,6 +19780,10 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Gold Partner</userLicense>
     <userPermissions>
         <enabled>true</enabled>

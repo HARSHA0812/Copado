@@ -19726,6 +19726,10 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Customer Community Plus Login</userLicense>
     <userPermissions>
         <enabled>true</enabled>

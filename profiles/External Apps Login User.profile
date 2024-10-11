@@ -19528,6 +19528,10 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
     <userLicense>External Apps Login</userLicense>
     <userPermissions>
         <enabled>true</enabled>

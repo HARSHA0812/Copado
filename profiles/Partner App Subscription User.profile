@@ -19600,6 +19600,10 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Partner App Subscription</userLicense>
     <userPermissions>
         <enabled>true</enabled>

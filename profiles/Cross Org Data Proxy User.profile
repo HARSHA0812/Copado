@@ -19636,6 +19636,10 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>XOrg Proxy User</userLicense>
     <userPermissions>
         <enabled>true</enabled>

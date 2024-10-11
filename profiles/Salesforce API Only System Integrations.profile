@@ -19429,6 +19429,10 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce Integration</userLicense>
     <userPermissions>
         <enabled>true</enabled>

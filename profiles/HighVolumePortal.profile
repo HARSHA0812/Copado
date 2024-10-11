@@ -19627,6 +19627,10 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>High Volume Customer Portal</userLicense>
     <userPermissions>
         <enabled>true</enabled>

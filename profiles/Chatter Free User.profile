@@ -19421,6 +19421,10 @@
         <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <userLicense>Chatter Free</userLicense>
     <userPermissions>
         <enabled>true</enabled>
