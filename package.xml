@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>pi__AsyncRequest__c-pi__AsyncRequest Layout</members>
+        <members>pi__Category_Contact_Score__c-pi__Pardot Category Score %28Contact%29 Layout</members>
+        <members>pi__Category_Lead_Score__c-pi__Pardot Category Score %28Lead%29 Layout</members>
+        <members>pi__EngageCampaignRecipient__c-pi__Engage Campaign Recipient Layout</members>
+        <members>pi__LDFilter__c-pi__Lead Deck Filter Layout</members>
+        <members>pi__ObjectChangeLog__c-pi__ObjectChangeLog Layout</members>
+        <members>pi__PardotTask__c-pi__Pardot Task Layout</members>
+        <members>pi__Pardot_Scoring_Category__c-pi__Pardot Scoring Category Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>Cloned LAyout</members>
         <name>Profile</name>
     </types>
