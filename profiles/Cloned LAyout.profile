@@ -38,7 +38,7 @@
     <applicationVisibilities>
         <application>copado__Copado_Compliance_Hub</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>copado__Copado_Console</application>
@@ -17629,9 +17629,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>copadoccmint__Record_Type_Mapping__c-copadoccmint__Record Type Mapping Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>pi__Pardot_Scoring_Category__c-Pardot Scoring Category Page Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
