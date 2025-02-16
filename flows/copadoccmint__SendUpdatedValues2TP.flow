@@ -57,7 +57,6 @@
             </value>
         </inputParameters>
         <nameSegment>copadoccmint__UserStoryHandler</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <assignments>

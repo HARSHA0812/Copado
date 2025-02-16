@@ -217,6 +217,20 @@
         <type>Picklist</type>
     </fields>
     <listViews>
+        <fullName>AllProblemsDefault</fullName>
+        <columns>Name</columns>
+        <columns>Description</columns>
+        <columns>Urgency</columns>
+        <columns>Impact</columns>
+        <columns>Priority</columns>
+        <columns>AssignedUser</columns>
+        <columns>Category</columns>
+        <columns>SubCategory</columns>
+        <columns>Status</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Problems (Default)</label>
+    </listViews>
+    <listViews>
         <fullName>Harsha_support_Problem</fullName>
         <filterScope>Queue</filterScope>
         <label>Harsha support</label>
@@ -226,12 +240,20 @@
         </sharedTo>
     </listViews>
     <searchLayouts>
-        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Urgency</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Impact</customTabListAdditionalFields>
         <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SubCategory</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Urgency</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Impact</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SubCategory</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>
