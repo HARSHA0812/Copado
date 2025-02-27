@@ -64,6 +64,7 @@
         <members>IncidentMgmt</members>
         <members>Industries</members>
         <members>IndustriesEinsteinFeature</members>
+        <members>InsuranceBrokerage</members>
         <members>InvocableAction</members>
         <members>Knowledge</members>
         <members>KnowledgeGeneration</members>
@@ -130,5 +131,5 @@
         <members>WorkDotCom</members>
         <name>Settings</name>
     </types>
-    <version>62.0</version>
+    <version>63.0</version>
 </Package>
