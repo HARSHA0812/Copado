@@ -200,6 +200,10 @@
         <fullName>Support</fullName>
         <isActive>true</isActive>
         <values>
+            <fullName>Case support process value</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Closed</fullName>
             <default>false</default>
         </values>
