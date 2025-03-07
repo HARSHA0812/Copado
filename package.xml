@@ -5,12 +5,12 @@
         <name>BusinessProcess</name>
     </types>
     <types>
-        <members>Case.Status</members>
-        <name>CustomField</name>
-    </types>
-    <types>
         <members>Case.Support</members>
         <name>RecordType</name>
+    </types>
+    <types>
+        <members>CaseStatus</members>
+        <name>StandardValueSet</name>
     </types>
     <version>63.0</version>
 </Package>
