@@ -142,6 +142,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>MessagingChannelId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MessagingChannelUsageId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -154,6 +164,15 @@
         <fullName>All_CommSubscriptionChannelTypes</fullName>
         <filterScope>Everything</filterScope>
         <label>All Communication Subscription Channel Types</label>
+    </listViews>
+    <listViews>
+        <fullName>Harsha_support_CommSubscriptionChannelType</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CommunicationSubscription</customTabListAdditionalFields>

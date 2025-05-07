@@ -158,7 +158,6 @@
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
         <description>A description of the metadata items that are contained in this group</description>
-        <externalId>false</externalId>
         <inlineHelpText>A description of the metadata items that are contained in this group</inlineHelpText>
         <label>Description</label>
         <required>false</required>
@@ -166,6 +165,15 @@
         <type>TextArea</type>
     </fields>
     <label>Metadata Group</label>
+    <listViews>
+        <fullName>Harsha_support_Metadata_Group</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <label>Metadata Group Name</label>
         <type>Text</type>

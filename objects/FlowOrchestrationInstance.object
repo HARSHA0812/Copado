@@ -73,10 +73,38 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Duration</fullName>
+    </fields>
+    <fields>
+        <fullName>OrchestrationDeveloperName</fullName>
+    </fields>
+    <fields>
+        <fullName>OrchestrationLabel</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+    </fields>
+    <fields>
+        <fullName>TriggeringRecord</fullName>
+    </fields>
     <listViews>
         <fullName>All_Orchestration_Instances</fullName>
         <filterScope>Everything</filterScope>
         <label>All Orchestration Runs</label>
+    </listViews>
+    <listViews>
+        <fullName>Harsha_support_FlowOrchestrationInstance</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>

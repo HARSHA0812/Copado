@@ -161,6 +161,19 @@
         <type>Hierarchy</type>
     </fields>
     <fields>
+        <fullName>PricebookId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SelfCheckInUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ServiceAppointmentLimitType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>TopLevelTerritoryId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -173,6 +186,15 @@
         <fullName>All_ServiceTerritories</fullName>
         <filterScope>Everything</filterScope>
         <label>All Service Territories</label>
+    </listViews>
+    <listViews>
+        <fullName>Harsha_support_ServiceTerritory</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <listViews>
         <fullName>My_ServiceTerritories</fullName>

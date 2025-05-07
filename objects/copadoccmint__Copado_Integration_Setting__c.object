@@ -157,7 +157,6 @@
     <fields>
         <fullName>copadoccmint__External_System__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>External System</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -191,6 +190,15 @@
         <unique>false</unique>
     </fields>
     <label>Copado Integration Setting</label>
+    <listViews>
+        <fullName>Harsha_support_Copado_Integration_Setting</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <listViews>
         <fullName>copadoccmint__All</fullName>
         <filterScope>Everything</filterScope>

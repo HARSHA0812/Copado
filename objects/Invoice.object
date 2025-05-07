@@ -116,6 +116,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CorpCrcyCnvTotAmtWithTax</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CorporateCurrencyCvsnDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CorporateCurrencyCvsnRate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -128,7 +140,17 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>InvoiceLockedDateTime</fullName>
+        <inlineHelpText>The time at which the invoice record was locked.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>InvoiceNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsInvoiceLocked</fullName>
+        <inlineHelpText>Indicates whether the invoice record is locked or not.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -181,6 +203,15 @@
         <fullName>TotalTaxAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>Harsha_support_Invoice</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <listViews>
         <fullName>mine</fullName>
         <columns>Name</columns>

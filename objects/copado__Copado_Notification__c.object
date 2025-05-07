@@ -231,7 +231,6 @@
         <fullName>copado__isFinished__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Finished</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -241,7 +240,6 @@
         <fullName>copado__isSuccess__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Success</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -250,7 +248,6 @@
     <fields>
         <fullName>copado__status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>status</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -258,6 +255,15 @@
         <type>TextArea</type>
     </fields>
     <label>Copado Notification</label>
+    <listViews>
+        <fullName>Harsha_support_Copado_Notification</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>

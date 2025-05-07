@@ -103,7 +103,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>DefaultLanguage</fullName>
-        <inlineHelpText>The language to use when translated content isn&apos;t available. This value comes from the first supported language for your org in Translation Workbench.</inlineHelpText>
+        <inlineHelpText>The language to use when translated content isn&apos;t available. This value is configured during store creation. If you change the default language later, you must also change the default language in Experience Builder for any associated community.</inlineHelpText>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -135,6 +135,7 @@
     </fields>
     <fields>
         <fullName>ProductGrouping</fullName>
+        <inlineHelpText>Choose how product variations and parent products display in search results.</inlineHelpText>
     </fields>
     <fields>
         <fullName>SortByPricebookId</fullName>
@@ -150,6 +151,15 @@
         <fullName>SupportedLanguages</fullName>
         <inlineHelpText>The languages to make available to buyers. Language options come from Translation Workbench.</inlineHelpText>
     </fields>
+    <listViews>
+        <fullName>Harsha_support_WebStore</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

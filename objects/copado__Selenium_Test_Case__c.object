@@ -172,7 +172,6 @@
         <fullName>copado__Previous_Version__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Previous Version</label>
         <referenceTo>copado__Selenium_Test_Case__c</referenceTo>
         <relationshipLabel>Next Version</relationshipLabel>
@@ -194,6 +193,15 @@
         <unique>false</unique>
     </fields>
     <label>Selenium Test Case</label>
+    <listViews>
+        <fullName>Harsha_support_Selenium_Test_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>

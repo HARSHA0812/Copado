@@ -158,7 +158,6 @@
         <fullName>copadoccmint__Project__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Project</label>
         <referenceTo>copado__Project__c</referenceTo>
         <relationshipLabel>Record Type Mappings</relationshipLabel>
@@ -190,6 +189,15 @@
         <unique>false</unique>
     </fields>
     <label>Record Type Mapping</label>
+    <listViews>
+        <fullName>Harsha_support_Record_Type_Mapping</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>RTM-{000000000}</displayFormat>
         <label>Record Type Mapping Name</label>

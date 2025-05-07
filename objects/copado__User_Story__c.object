@@ -128,22 +128,16 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>User_Story_Record_Page1</content>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>User_Story_Record_Page1</content>
         <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
@@ -6200,94 +6194,16 @@
         <label>Work Manager Relations</label>
     </fieldSets>
     <fields>
-        <fullName>cml_First_Ready_to_Promote_Time__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Records the date/time on which this User Story was first marked as Ready to Promote</description>
-        <externalId>false</externalId>
-        <label>First Ready to Promote Time</label>
+        <fullName>ADO_Text_area__c</fullName>
+        <label>ADO Text area</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>cml_First_Time_Promoted_Prod_or_RB__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Records the first time this User Story was promoted to a Production Org OR Rolled Back out of Production. Used in the calculation of both Lead Time and Mean Time to Restore</description>
-        <externalId>false</externalId>
-        <label>First Time Promoted Prod Or Rolled Back</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>cml_Found_in_Promotion__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Found in Promotion</label>
-        <referenceTo>copado__Promotion__c</referenceTo>
-        <relationshipLabel>User Stories (Found in Promotion)</relationshipLabel>
-        <relationshipName>User_Stories</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>cml_Is_Business_Disruption_Failure__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Indicates if this User Story is considered a Business Disrupting Failure (i.e. a P0 or P1 severity issue)</description>
-        <externalId>false</externalId>
-        <formula>IF(OR(TEXT(cml_Severity__c) == &apos;P0 - Blocker - Business Disruption&apos;, TEXT(cml_Severity__c) == &apos;P1 - Critical - No Workaround&apos;), true, false)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Is Business Disruption Failure</label>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>cml_Severity__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Used to track the severity on User Stories of type Bug</description>
-        <externalId>false</externalId>
-        <label>Severity</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>P0 - Blocker - Business Disruption</fullName>
-                    <default>false</default>
-                    <label>P0 - Blocker - Business Disruption</label>
-                </value>
-                <value>
-                    <fullName>P1 - Critical - No Workaround</fullName>
-                    <default>false</default>
-                    <label>P1 - Critical - No Workaround</label>
-                </value>
-                <value>
-                    <fullName>P2 - Major</fullName>
-                    <default>false</default>
-                    <label>P2 - Major</label>
-                </value>
-                <value>
-                    <fullName>P3 - Minor</fullName>
-                    <default>false</default>
-                    <label>P3 - Minor</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>copado__Acceptance_Criteria_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Acceptance Criteria Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -6317,7 +6233,6 @@
     <fields>
         <fullName>copado__Acceptance_Criteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Acceptance Criteria</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -6342,7 +6257,6 @@
         <fullName>copado__Apex_Code_Coverage__c</fullName>
         <deprecated>false</deprecated>
         <description>Coverage of the Apex Classes added or committed within the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Coverage of the Apex Classes added or committed within the User Story.</inlineHelpText>
         <label>Apex Code Coverage</label>
         <precision>3</precision>
@@ -6356,7 +6270,6 @@
         <fullName>copado__Apex_Tests_Passed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Apex Tests Passed</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6399,7 +6312,7 @@
         <label>Base Branch</label>
         <length>180</length>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -6408,7 +6321,6 @@
         <fullName>copado__Business_Analyst__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Business Analyst</label>
         <referenceTo>User</referenceTo>
         <relationshipLabel>User Stories</relationshipLabel>
@@ -6422,7 +6334,6 @@
         <fullName>copado__Cancellation_Reason__c</fullName>
         <deprecated>false</deprecated>
         <description>Describes why the User Story was cancelled, so that this information is available.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Describes why the User Story was cancelled, so that this information is available.</inlineHelpText>
         <label>Cancellation Reason</label>
         <required>false</required>
@@ -6448,7 +6359,6 @@
     <fields>
         <fullName>copado__Close_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Close Date</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -6458,7 +6368,6 @@
     <fields>
         <fullName>copado__Compliance_Criteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance Criteria</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -6470,7 +6379,6 @@
         <fullName>copado__Compliance_Status__c</fullName>
         <deprecated>false</deprecated>
         <description>Current status of the User Story Compliance scan.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Current status of the User Story Compliance scan.</inlineHelpText>
         <label>Compliance Status</label>
         <required>false</required>
@@ -6517,7 +6425,6 @@
         <fullName>copado__Compliance__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6527,7 +6434,6 @@
         <fullName>copado__Data_Privacy__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Data Privacy</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6537,7 +6443,6 @@
         <fullName>copado__Developer__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Developer</label>
         <referenceTo>User</referenceTo>
         <relationshipLabel>User Stories (Developer)</relationshipLabel>
@@ -6551,7 +6456,6 @@
         <fullName>copado__Documentation_Complete__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Documentation Complete</label>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6575,7 +6479,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Current environment of the User Story. This value is added automatically by Copado based on the selected Credential.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Current environment of the User Story. This value is added automatically by Copado based on the selected Credential.</inlineHelpText>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
@@ -6591,7 +6494,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Epic containing the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Epic containing the User Story.</inlineHelpText>
         <label>Epic</label>
         <referenceTo>copado__Epic__c</referenceTo>
@@ -6607,7 +6509,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If checked, this user story will not be included in the count of user stories ahead and behind.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If checked, this user story will not be included in the count of user stories ahead and behind.</inlineHelpText>
         <label>Exclude from Pipelines</label>
         <trackHistory>false</trackHistory>
@@ -6632,7 +6533,6 @@
     <fields>
         <fullName>copado__Functional_Specifications__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Functional Specifications</label>
         <length>30000</length>
         <trackHistory>false</trackHistory>
@@ -6644,7 +6544,6 @@
         <fullName>copado__Git_Merge_Status__c</fullName>
         <deprecated>false</deprecated>
         <description>The git merge status of the latest pull request between the feature branch and the target branch. This value is provided by the Git Repository. If there is no value, the Git Repository did not provide one.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The git merge status of the latest pull request between the feature branch and the target branch. This value is provided by the Git Repository. If there is no value, the Git Repository did not provide one.</inlineHelpText>
         <label>Git Merge Status</label>
         <required>false</required>
@@ -6684,7 +6583,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Value automatically updated by Copado whenever there are Apex Classes added or committed in the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Value automatically updated by Copado whenever there are Apex Classes added or committed in the User Story.</inlineHelpText>
         <label>Has Apex Code</label>
         <trackHistory>false</trackHistory>
@@ -6695,7 +6593,6 @@
         <fullName>copado__Is_Bundle__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Is Bundle</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6705,7 +6602,6 @@
         <fullName>copado__Last_Compliance_Scan_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Latest Compliance Scan execution date.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Latest Compliance Scan execution date.</inlineHelpText>
         <label>Last Compliance Scan Date</label>
         <required>false</required>
@@ -6716,7 +6612,6 @@
     <fields>
         <fullName>copado__Last_Promotion_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Promotion Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -6754,7 +6649,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Most recent validation Deployment for the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Most recent validation Deployment for the User Story.</inlineHelpText>
         <label>Last Validation Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
@@ -6770,7 +6664,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Promotion containing the most recent validation Deployment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Promotion containing the most recent validation Deployment.</inlineHelpText>
         <label>Last Validation Promotion</label>
         <referenceTo>copado__Promotion__c</referenceTo>
@@ -6784,7 +6677,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
     <fields>
         <fullName>copado__Latest_Commit_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Latest Commit Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -6795,7 +6687,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <fullName>copado__Legal__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Legal</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6806,7 +6697,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If any of the Quality Gates are Manual Steps (Pull Request, Manual Test, or Manual Approval), the story should be marked as &apos;Manual Step Required&apos;.</description>
-        <externalId>false</externalId>
         <label>Manual Step Required</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6816,7 +6706,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <fullName>copado__Manual_Tests_Passed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Manual Tests Passed</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6826,7 +6715,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <fullName>copado__Metadata_Types_in_Selection__c</fullName>
         <deprecated>false</deprecated>
         <description>Metadata types of the components listed in the User Story Selections. This value is updated automatically by Copado.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Metadata types of the components listed in the User Story Selections. This value is updated automatically by Copado.</inlineHelpText>
         <label>Metadata Types in Selection</label>
         <required>false</required>
@@ -7250,7 +7138,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <defaultValue>0.75</defaultValue>
         <deprecated>false</deprecated>
         <description>Minimum Apex Code Coverage required. If this value is lower than the value set in the User Story&apos;s Environment, the Environment&apos;s value will be automatically applied.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Minimum Apex Code Coverage required. If this value is lower than the value set in the User Story&apos;s Environment, the Environment&apos;s value will be automatically applied.</inlineHelpText>
         <label>Minimum Apex Code Coverage</label>
         <precision>3</precision>
@@ -7278,7 +7165,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Credential used to add or commit metadata and to promote and deploy the User Story to the next Environment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Credential used to add or commit metadata and to promote and deploy the User Story to the next Environment.</inlineHelpText>
         <label>Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
@@ -7369,7 +7255,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__Progress__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Progress</label>
         <precision>3</precision>
         <required>false</required>
@@ -7383,7 +7268,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Project where the User Story belongs.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Project where the User Story belongs.</inlineHelpText>
         <label>Project</label>
         <referenceTo>copado__Project__c</referenceTo>
@@ -7399,7 +7283,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If checked, the User Story is marked as ready to be promoted. The user story will appear as &apos;Ahead&apos; and available to be selected in the Branch Management and Promotion pages.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If checked, the User Story is marked as ready to be promoted. The user story will appear as &apos;Ahead&apos; and available to be selected in the Promotion and Branch Management pages.</inlineHelpText>
         <label>Ready to Promote</label>
         <trackHistory>false</trackHistory>
@@ -7410,7 +7293,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Promote_and_Deploy__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>When this checkbox is checked, a promotion and deployment of this User Story will be started.</inlineHelpText>
         <label>Promote and Deploy</label>
         <trackHistory>false</trackHistory>
@@ -7421,7 +7303,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Promote_as_Single_Step__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Promote as Single Step</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -7431,7 +7312,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Promotion_Test_Level__c</fullName>
         <deprecated>false</deprecated>
         <description>Test Level to apply in the deployment of the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Test Level to apply in the deployment of the User Story.</inlineHelpText>
         <label>Promotion Test Level</label>
         <required>false</required>
@@ -7469,7 +7349,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Pull_Requests_Approved__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pull Requests Approved</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -7500,7 +7379,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Product version or release where this User Story will be released.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Product version or release where this User Story will be released.</inlineHelpText>
         <label>Release</label>
         <referenceTo>copado__Release__c</referenceTo>
@@ -7516,7 +7394,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Sprint where the User Story is planned.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Sprint where the User Story is planned.</inlineHelpText>
         <label>Sprint</label>
         <referenceTo>copado__Sprint__c</referenceTo>
@@ -7531,7 +7408,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
         <description>Current status of the implementation of the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Current status of the implementation of the User Story.</inlineHelpText>
         <label>Status</label>
         <required>false</required>
@@ -7591,16 +7467,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                     <default>false</default>
                     <label>Cancelled</label>
                 </value>
-                <value>
-                    <fullName>To Do</fullName>
-                    <default>false</default>
-                    <label>To Do</label>
-                </value>
-                <value>
-                    <fullName>Done</fullName>
-                    <default>false</default>
-                    <label>Done</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -7609,7 +7475,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If checked, the User Story will not be indexed for Copado&apos;s Overlap Awareness.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If checked, the User Story will not be indexed for Copado&apos;s Overlap Awareness.</inlineHelpText>
         <label>Exclude from Overlap Awareness</label>
         <trackHistory>false</trackHistory>
@@ -7649,7 +7514,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Team which will tackle the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Team which will tackle the User Story.</inlineHelpText>
         <label>Team</label>
         <referenceTo>copado__Team__c</referenceTo>
@@ -7663,7 +7527,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__Technical_Specifications__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Technical Specifications</label>
         <length>30000</length>
         <trackHistory>false</trackHistory>
@@ -7675,7 +7538,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Test_Script_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test Script Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipLabel>User Stories (Test Script Owner)</relationshipLabel>
@@ -7690,7 +7552,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>A theme is a group of user stories which contribute to a common goal. It is the highest level of the user story hierarchy. On the other hand, an epic is a big user story that has to be divided into several user stories because it can&apos;t be completed within one sprint.</description>
-        <externalId>false</externalId>
         <inlineHelpText>A theme is a group of user stories which contribute to a common goal. It is the highest level of the user story hierarchy. On the other hand, an epic is a big user story that has to be divided into several user stories because it can&apos;t be completed within</inlineHelpText>
         <label>Theme</label>
         <referenceTo>copado__Theme__c</referenceTo>
@@ -7752,7 +7613,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__US_Feature__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Feature</label>
         <referenceTo>copado__Application_Feature__c</referenceTo>
         <relationshipLabel>User Stories</relationshipLabel>
@@ -7780,7 +7640,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Validate_Only__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This will create a validation deployment.  When checked, Git metadata and regular metadata will be merged to create 1 validation deployment.</inlineHelpText>
         <label>Validate Only</label>
         <trackHistory>false</trackHistory>
@@ -7835,7 +7694,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__userStory_Role__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>As a...</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -7845,7 +7703,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__userStory_need__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Want to...</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -7855,7 +7712,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__userStory_reason__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>So that...</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -7866,7 +7722,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copadoccmint__Enable_Logs__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Enable Logs</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -7879,7 +7734,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <label>External Id</label>
         <length>255</length>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -7899,24 +7754,31 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </fields>
     <label>User Story</label>
     <listViews>
+        <fullName>Harsha_support_User_Story</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>RECORDTYPE</columns>
         <columns>copado__User_Story_Title__c</columns>
         <columns>copado__Status__c</columns>
         <columns>copado__Priority__c</columns>
-        <columns>copado__Promote_Change__c</columns>
         <columns>copado__Order__c</columns>
         <columns>copado__US_Feature__c</columns>
-        <columns>copadoccmint__JIRA_key__c</columns>
         <columns>copado__Epic__c</columns>
         <columns>copado__Theme__c</columns>
         <columns>copado__Project__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>RECORDTYPE</field>
-            <operation>equals</operation>
-            <value>copado__User_Story__c.copado__User_Story</value>
+            <field>copado__Priority__c</field>
+            <operation>notEqual</operation>
+            <value>3</value>
         </filters>
         <label>All</label>
     </listViews>
@@ -7945,28 +7807,9 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <pluralLabel>User Stories</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
-        <fullName>copado__Bug</fullName>
+        <fullName>Issue</fullName>
         <active>true</active>
-        <label>Bug</label>
-        <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        <label>Issue</label>
         <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
@@ -8393,7 +8236,450 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Done</fullName>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for testing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>copado__Bug</fullName>
+        <active>true</active>
+        <label>Bug</label>
+        <picklistValues>
+            <picklist>copado__Acceptance_Criteria_Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>copado__Compliance_Status__c</picklist>
+            <values>
+                <fullName>Completed - Findings detected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed - No Findings</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed - Resolved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Investigation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>copado__Git_Merge_Status__c</picklist>
+            <values>
+                <fullName>Conflicts Detected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mergeable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>copado__Metadata_Types_in_Selection__c</picklist>
+            <values>
+                <fullName>ActionLinkGroupTemplate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AnalyticSnapshot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ApexClass</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ApexComponent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ApexPage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ApexTrigger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AppMenu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ApprovalProcess</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AssignmentRule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AssignmentRules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AuraDefinitionBundle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AuthProvider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AutoResponseRule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AutoResponseRules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BusinessProcess</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CallCenter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Certificate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ChannelLayout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CompactLayout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ConnectedApp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CorsWhitelistOrigin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomApplication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomField</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomLabel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomLabels</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomMetadata</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomObject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomObjectTranslation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomPageWebLink</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomPermission</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomSite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomTab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dashboard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DataCategoryGroup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DelegateGroup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Document</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EmailTemplate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EscalationRule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EscalationRules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ExternalDataSource</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FieldSet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FlexiPaFlow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FlowDefinitioGroup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HomePageComponent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HomePageLayout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>InstalledPackageLayout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Letterhead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ListView</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MatchingRule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MatchingRules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NamedCredential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PathAssistant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PermissionSet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PlatformCachePartition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PostTemplate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ProfilQueue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QuickAction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecordType</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RemoteSiteSettingReport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ReportTyRole</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SamlSsoConfig</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scontrol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Settings</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SharingCriteriaRule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SharingOwnerRule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SharingReason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SharingRules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SiteDotCom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>StaticResource</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SynonymDictionary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ValidationRule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WebLink</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workflow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WorkflowAlert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WorkflowFieldUpdate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WorkflowOutboundMessage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WorkflowRule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WorkflowSend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WorkflowTask</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>copado__Promotion_Test_Level__c</picklist>
+            <values>
+                <fullName>NoTestRun</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>RunAllTestsInOrg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RunLocalTests</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RunSpecifiedTests</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>copado__Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Awaiting Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backburner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backlog</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8410,10 +8696,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8423,25 +8705,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <active>true</active>
         <label>Investigation</label>
         <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
                 <fullName>Accepted</fullName>
@@ -8867,10 +9130,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Done</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Draft</fullName>
                 <default>true</default>
             </values>
@@ -8884,10 +9143,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8897,25 +9152,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <active>true</active>
         <label>User Story</label>
         <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
                 <fullName>Accepted</fullName>
@@ -9341,10 +9577,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Done</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Draft</fullName>
                 <default>true</default>
             </values>
@@ -9358,10 +9590,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9371,25 +9599,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <active>true</active>
         <label>Utility</label>
         <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
                 <fullName>Accepted</fullName>
@@ -9815,10 +10024,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
-                <fullName>Done</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Draft</fullName>
                 <default>true</default>
             </values>
@@ -9832,10 +10037,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9868,14 +10069,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
-        <fullName>JIRA_key_and_External_ID</fullName>
-        <active>false</active>
-        <errorConditionFormula>AND(
-OR(ISBLANK( copadoccmint__JIRA_key__c ), ISBLANK( copadoccmint__External_Id__c )) ,
-NOT(AND(ISBLANK(copadoccmint__JIRA_key__c), ISBLANK(copadoccmint__External_Id__c))))</errorConditionFormula>
-        <errorMessage>You. need to fill both key and external ID for userstory while creating them manually</errorMessage>
-    </validationRules>
-    <validationRules>
         <fullName>copado__Cancellation_reason_required</fullName>
         <active>false</active>
         <errorConditionFormula>AND(
@@ -9892,17 +10085,6 @@ NOT(AND(ISBLANK(copadoccmint__JIRA_key__c), ISBLANK(copadoccmint__External_Id__c
 NOT ( ISBLANK(copado__Org_Credential__c) ) &amp;&amp;
 copado__Environment__c != copado__Org_Credential__r.copado__Environment__c</errorConditionFormula>
         <errorMessage>The credential must belong to the environment.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>copado__Excluded_User_Stories_Not_Promotable</fullName>
-        <active>true</active>
-        <description>If &apos;Excluded from CBM&apos; is enable, the user story can not be mark as &quot;Ready To Promote&quot; or &quot;Promote &amp; Deploy&quot;</description>
-        <errorConditionFormula>IF(
-  AND(NOT(ISBLANK(copado__Platform__c)), copado__Platform__c != &apos;Salesforce&apos;), 
-  (IF(AND(copado__Exclude_From_CBM__c, OR(copado__Promote_Change__c, copado__Promote_and_Deploy__c)), TRUE, FALSE)),
-  FALSE
-)</errorConditionFormula>
-        <errorMessage>You cannot enable the &quot;Ready to Promote&quot; or the &quot;Promote &amp; Deploy&quot; options because the &quot;Exclude from Pipeline&quot; option is enabled. Please disable this option first and try again.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>copado__Promote_User_Story_Apex_validation</fullName>

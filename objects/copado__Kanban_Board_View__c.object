@@ -158,7 +158,6 @@
         <fullName>copado__Kanban_Board__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Kanban Board</label>
         <referenceTo>copado__Kanban_Board__c</referenceTo>
         <relationshipLabel>Kanban Board Views</relationshipLabel>
@@ -170,7 +169,6 @@
     <fields>
         <fullName>copado__SOQL_Json__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>SOQL Json</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -178,6 +176,15 @@
         <visibleLines>3</visibleLines>
     </fields>
     <label>Kanban Board View</label>
+    <listViews>
+        <fullName>Harsha_support_Kanban_Board_View</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <label>Kanban Board View Name</label>
         <type>Text</type>

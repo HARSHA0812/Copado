@@ -82,9 +82,12 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
     }
 
     //salesforce field api to third party field Mapping to use on third party record update operation
+    public Boolean thirdParty = FALSE;
     public Map<String, String> fieldMap {
         get {
-            if (null == fieldMap) {
+            if (thirdParty && null == fieldMap) {
+                fieldMap = CopadoCCMutilities.returnFieldMap(pId, DONT_EXCLUDE_FROM_SALESFORCE );
+            } else if (null == fieldMap) {
                 fieldMap = CopadoCCMutilities.returnFieldMap(pId, DONT_EXCLUDE_FROM_THIRD_PARTY);
             }
             return fieldMap;
@@ -190,8 +193,9 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
      *
      * @return List<Map<String,String>>
      */
-    public Map<String, Map<String, String>> fetchRecordsWithLimitedSprints(copado__Project__c selectedProject, List<copado__Sprint__c> sprints) {
+    public Map<String, Map<String, String>> fetchRecordsWithLimitedSprints(copado__Project__c selectedProject, List<copado__Sprint__c> sprints, Boolean tParty) {
         pid = selectedProject.id;
+        thirdParty = tParty;
         projectExtId = null != selectedProject.Project_External_Id__c ? selectedProject.Project_External_Id__c : EMPTY_CHAR;
         namedCredential = selectedProject.Copado_Integration_Setting__r.Named_Credential__c;
 
@@ -216,8 +220,9 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
      *
      * @return List<Map<String,String>>
      */
-    public List<Map<String, String>> fetchRecords(copado__Project__c selectedProject, Boolean isSprint) {
+    public List<Map<String, String>> fetchRecords(copado__Project__c selectedProject, Boolean isSprint, Boolean tParty) {
         pid = selectedProject.id;
+        thirdParty = tParty;
         projectExtId = null != selectedProject.Project_External_Id__c ? selectedProject.Project_External_Id__c : EMPTY_CHAR;
         namedCredential = selectedProject.Copado_Integration_Setting__r.Named_Credential__c;
 
@@ -337,6 +342,7 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
             } else if (fields.get(cf) instanceof List<Object> && cf == RELEASE_REST_NAME) {
                 List<Object> tempObject = (List<Object>) fields.get(cf);
                 if (tempObject.isEmpty()) {
+                    keyValuepairs.put(cf.toLowerCase(), null);
                     continue;
                 }
                 Map<String, Object> result = (Map<String, Object>) tempObject[0];
@@ -458,22 +464,27 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
      * @return sprint list response
      */
     private List<copado__Sprint__c> getSprints(copado__Project__c selectedProject) {
-        correctExtendedFilter(selectedProject.JQL_Extended_Filter__c);
-        String responseText = CopadoCCMutilities.MakeCallout(
-            namedCredential,
-            SPRINT_QUERY_PATH,
-            EMPTY_CHAR,
-            projectExtId + jqlExtFilter,
-            EMPTY_CHAR,
-            new List<String>{ CONTENT_TYPE_HEADER },
-            Method.GET,
-            null,
-            null,
-            selectedProject
-        );
+        try {
+            correctExtendedFilter(selectedProject.JQL_Extended_Filter__c);
+            String responseText = CopadoCCMutilities.MakeCallout(
+                namedCredential,
+                SPRINT_QUERY_PATH,
+                EMPTY_CHAR,
+                projectExtId + jqlExtFilter,
+                EMPTY_CHAR,
+                new List<String>{ CONTENT_TYPE_HEADER },
+                Method.GET,
+                null,
+                null,
+                selectedProject
+            );
 
-        Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(responseText);
-        return upsertSprints((List<Object>) results.get(SPRINTS_STRING), selectedProject.Id);
+            Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(responseText);
+            return upsertSprints((List<Object>) results.get(SPRINTS_STRING), selectedProject.Id);
+        } catch (Exception ex) {
+            throw new ApplicationException(Label.InvalidJQLParameter);
+            return null;
+        }
     }
 
     /**
@@ -539,4 +550,5 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
         public String id;
         public String name;
     }
+    public class ApplicationException extends Exception {}
 }

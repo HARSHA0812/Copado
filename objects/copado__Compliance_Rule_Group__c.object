@@ -157,6 +157,15 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Compliance Rule Group</label>
     <listViews>
+        <fullName>Harsha_support_Compliance_Rule_Group</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>CREATED_DATE</columns>

@@ -268,9 +268,8 @@ var operationTypeAttachmentName;
      * @see app.config.data.orgId
      */
     app.refreshCache = function () {
-        rerenderRefreshCachePoller();
-        $copado('[id="refreshComplete"]').val('false');
         app.grid.refreshCache();
+        rerenderRefreshCachePoller();
     };
     app.refreshRecentChanges = function (orgId) {
         const core = app.conf.ns ? window[app.conf.ns.split('__')[0]] : window;

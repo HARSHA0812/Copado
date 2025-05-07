@@ -130,6 +130,11 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>CommunicationSubscriptionCode</fullName>
+        <inlineHelpText>The code associated with the communication subscription.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>DataUsePurposeId</fullName>
         <inlineHelpText>The data use purpose record associated with the communication subscription.</inlineHelpText>
         <trackHistory>false</trackHistory>
@@ -153,6 +158,15 @@
         <fullName>All_CommSubscriptions</fullName>
         <filterScope>Everything</filterScope>
         <label>All Communication Subscriptions</label>
+    </listViews>
+    <listViews>
+        <fullName>Harsha_support_CommSubscription</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>DataUsePurpose</customTabListAdditionalFields>

@@ -168,7 +168,6 @@
     <fields>
         <fullName>copado__Action_Result__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Action Result</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -211,7 +210,6 @@
     <fields>
         <fullName>copado__Log__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Automation Log</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -243,7 +241,6 @@
     <fields>
         <fullName>copado__Target_Action_Job_Execution_Ids__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Target Action Job Execution Ids</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -264,6 +261,15 @@
         <unique>false</unique>
     </fields>
     <label>Automation Event</label>
+    <listViews>
+        <fullName>Harsha_support_Automation_Event</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Harsha support</label>
+        <queue>Harsha_support</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>AE-{0000000000}</displayFormat>
         <label>MC Automation Event Name</label>
