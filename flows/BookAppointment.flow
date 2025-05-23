@@ -1374,7 +1374,7 @@
             <targetReference>InitializeServiceAppointment</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <subflows>
         <description>The subflow which gets triggered to collect the payment from the user.</description>
         <name>Payments_Subflow</name>
