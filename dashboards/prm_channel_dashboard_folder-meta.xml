@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>allie.ayinrwectkyv.q2equwkcbzhw.sug0fnhr9tp5@industryapps.edu</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>bobby.wotgjblcdbju.ctn3hy6arnpd.w7hsxf8hkju7@industryapps.edu</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>charlie.xnvaaho0azty.pbiorhcjrlt6.2pzar79ntax7@industryapps.edu</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>gharshavardhan11-5823229423@industryapps.edu</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>PRM Dashboards</name>
+</DashboardFolder>
