@@ -834,15 +834,6 @@ IMAGE(&apos;/resource/1516617568000/&apos;+IF($Setup.copado__Settings__c.copado_
     </fields>
     <label>Credential</label>
     <listViews>
-        <fullName>Harsha_support_Org</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Org_Type__c</columns>

@@ -297,15 +297,6 @@
         <inlineHelpText>The date when the finance transaction occurred</inlineHelpText>
     </fields>
     <listViews>
-        <fullName>Harsha_support_FinanceTransaction</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>mine</fullName>
         <columns>Name</columns>
         <columns>TotalAmountWithTax</columns>

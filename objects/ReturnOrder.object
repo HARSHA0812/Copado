@@ -268,15 +268,6 @@
         <label>All Return Orders</label>
     </listViews>
     <listViews>
-        <fullName>Harsha_support_ReturnOrder</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>My_ReturnOrders</fullName>
         <filterScope>Mine</filterScope>
         <label>My Return Orders</label>

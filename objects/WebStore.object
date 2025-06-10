@@ -151,15 +151,6 @@
         <fullName>SupportedLanguages</fullName>
         <inlineHelpText>The languages to make available to buyers. Language options come from Translation Workbench.</inlineHelpText>
     </fields>
-    <listViews>
-        <fullName>Harsha_support_WebStore</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

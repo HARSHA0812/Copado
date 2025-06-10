@@ -227,15 +227,6 @@
         <label>All Scratch Org Infos</label>
     </listViews>
     <listViews>
-        <fullName>Harsha_support_ScratchOrgInfo</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>My_Scratch_Org_Infos</fullName>
         <filterScope>Mine</filterScope>
         <label>My Scratch Org Infos</label>

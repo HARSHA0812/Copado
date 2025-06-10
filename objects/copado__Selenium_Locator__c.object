@@ -202,15 +202,6 @@ Copado Recorder will automatically set the page title when recording.</inlineHel
     </fields>
     <label>Selenium Locator</label>
     <listViews>
-        <fullName>Harsha_support_Selenium_Locator</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Page__c</columns>

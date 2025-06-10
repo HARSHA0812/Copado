@@ -538,15 +538,6 @@ This value will prefill the order by field on related Promotion record creation 
         <type>Lookup</type>
     </fields>
     <label>Pipeline</label>
-    <listViews>
-        <fullName>Harsha_support_Deployment_Flow</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <nameField>
         <label>Pipeline Name</label>
         <trackHistory>false</trackHistory>

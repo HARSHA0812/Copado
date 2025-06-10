@@ -7754,15 +7754,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </fields>
     <label>User Story</label>
     <listViews>
-        <fullName>Harsha_support_User_Story</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>RECORDTYPE</columns>

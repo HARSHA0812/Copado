@@ -212,15 +212,6 @@
         <fullName>TermsAndConditions</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <listViews>
-        <fullName>Harsha_support_Promotion1</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Campaign</customTabListAdditionalFields>
         <customTabListAdditionalFields>CreatedBy</customTabListAdditionalFields>

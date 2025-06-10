@@ -276,15 +276,6 @@
     </fields>
     <label>Epic</label>
     <listViews>
-        <fullName>Harsha_support_Epic</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Epic_Title__c</columns>

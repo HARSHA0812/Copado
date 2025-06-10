@@ -296,15 +296,6 @@
         <type>Lookup</type>
     </fields>
     <label>Copado Deployment History</label>
-    <listViews>
-        <fullName>Harsha_support_Deployment_History</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <nameField>
         <displayFormat>CDH-{0000000}</displayFormat>
         <label>Copado Deployment History Name</label>

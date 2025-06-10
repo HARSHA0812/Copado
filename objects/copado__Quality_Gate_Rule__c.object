@@ -323,15 +323,6 @@ IF(INCLUDES(copado__Actions__c , &quot;PackageDistribution&quot; ), &quot;Packag
     </fields>
     <label>Quality Gate Rule</label>
     <listViews>
-        <fullName>Harsha_support_Quality_Gate_Rule</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Status__c</columns>

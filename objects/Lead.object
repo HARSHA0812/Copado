@@ -711,15 +711,6 @@
         <label>All Open Leads</label>
     </listViews>
     <listViews>
-        <fullName>Harsha_support_Lead</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>MyUnreadLeads</fullName>
         <filterScope>Mine</filterScope>
         <filters>

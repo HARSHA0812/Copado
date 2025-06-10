@@ -176,15 +176,6 @@
         <fullName>VendorCallKey</fullName>
     </fields>
     <listViews>
-        <fullName>Harsha_support_VoiceCall</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>My_VoiceCalls</fullName>
         <filterScope>Mine</filterScope>
         <label>MyVoiceCalls</label>

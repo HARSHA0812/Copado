@@ -192,15 +192,6 @@ Scoring Categories are used for multi-product engagement scoring in Pardot and a
     </fields>
     <label>Pardot Scoring Category</label>
     <listViews>
-        <fullName>Harsha_support_Pardot_Scoring_Category</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>pi__All</fullName>
         <columns>pi__Category_Name__c</columns>
         <columns>NAME</columns>

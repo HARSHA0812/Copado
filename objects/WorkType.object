@@ -217,15 +217,6 @@
         <label>All Work Types</label>
     </listViews>
     <listViews>
-        <fullName>Harsha_support_WorkType</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>My_WorkTypes</fullName>
         <filterScope>Mine</filterScope>
         <label>My Work Types</label>

@@ -187,15 +187,6 @@
         <label>All Appointment Invitations</label>
     </listViews>
     <listViews>
-        <fullName>Harsha_support_AppointmentInvitation</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>My_AppointmentInvitations</fullName>
         <filterScope>Mine</filterScope>
         <label>My Appointment Invitations</label>

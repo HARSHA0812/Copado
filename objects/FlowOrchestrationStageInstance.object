@@ -83,14 +83,5 @@
     <fields>
         <fullName>Status</fullName>
     </fields>
-    <listViews>
-        <fullName>Harsha_support_FlowOrchestrationStageInstance</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>

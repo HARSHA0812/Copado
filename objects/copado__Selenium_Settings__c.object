@@ -270,15 +270,6 @@ http://USER:TOKEN@ondemand.saucelabs.com:80/wd/hub/</inlineHelpText>
     </fields>
     <label>Selenium Settings</label>
     <listViews>
-        <fullName>Harsha_support_Selenium_Settings</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Default_Org_Credential__c</columns>

@@ -161,15 +161,6 @@
         <type>AutoNumber</type>
     </fields>
     <label>Accountcontact</label>
-    <listViews>
-        <fullName>Harsha_support_Junction</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <nameField>
         <label>Name</label>
         <type>Text</type>

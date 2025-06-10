@@ -240,15 +240,6 @@
         <type>Lookup</type>
     </fields>
     <label>DEPRECATED</label>
-    <listViews>
-        <fullName>Harsha_support_User_Story_Bundle</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Harsha support</label>
-        <queue>Harsha_support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <nameField>
         <displayFormat>USB-{0000000}</displayFormat>
         <label>User Story Bundle Name</label>
