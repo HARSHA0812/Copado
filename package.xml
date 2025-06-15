@@ -26,6 +26,7 @@
         <members>ConnectedApp</members>
         <members>Content</members>
         <members>Contract</members>
+        <members>ConversationServiceIntegration</members>
         <members>ConversationalIntelligence</members>
         <members>Currency</members>
         <members>CustomAddressField</members>
@@ -84,6 +85,7 @@
         <members>ObjectLinking</members>
         <members>OmniChannel</members>
         <members>OmniChannelPricing</members>
+        <members>OmniStudio</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>OrderManagement</members>
