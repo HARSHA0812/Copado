@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account-Account %28Marketing%29 Layout</members>
-        <members>Account-Account %28Sales%29 Layout</members>
-        <members>Account-Account %28Support%29 Layout</members>
-        <members>Account-Account Layout</members>
-        <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
-        <name>Layout</name>
+        <members>Admin</members>
+        <name>Profile</name>
     </types>
     <version>63.0</version>
 </Package>
