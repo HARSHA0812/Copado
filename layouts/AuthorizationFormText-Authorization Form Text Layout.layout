@@ -22,6 +22,10 @@
                 <behavior>Edit</behavior>
                 <field>ContentDocumentId</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DetailAuthorizationFormText</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
