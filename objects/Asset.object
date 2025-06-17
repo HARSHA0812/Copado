@@ -262,6 +262,13 @@
         <fullName>StockKeepingUnit</fullName>
     </fields>
     <fields>
+        <fullName>Successful_Attempt__c</fullName>
+        <defaultValue>true</defaultValue>
+        <label>Successful_Attempt</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>TotalLifecycleAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
