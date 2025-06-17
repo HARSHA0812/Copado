@@ -47,6 +47,10 @@
                 <behavior>Edit</behavior>
                 <field>email_testdev_eshaan__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Premier_Customer__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
