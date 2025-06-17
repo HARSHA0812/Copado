@@ -292,13 +292,30 @@
         <filterScope>Everything</filterScope>
         <label>All Incidents (Default)</label>
     </listViews>
+    <listViews>
+        <fullName>MyIncidents</fullName>
+        <columns>Name</columns>
+        <columns>Subject</columns>
+        <columns>ReportedBy</columns>
+        <columns>Priority</columns>
+        <columns>Status</columns>
+        <columns>AssignedUser</columns>
+        <columns>Category</columns>
+        <columns>SubCategory</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Incidents</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
         <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SubCategory</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SubCategory</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

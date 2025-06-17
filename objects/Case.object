@@ -325,7 +325,6 @@
     </fields>
     <fields>
         <fullName>PotentialLiability__c</fullName>
-        <externalId>false</externalId>
         <label>Potential Liability</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -364,7 +363,6 @@
     </fields>
     <fields>
         <fullName>Product__c</fullName>
-        <externalId>false</externalId>
         <label>Product</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -431,7 +429,6 @@
     </fields>
     <fields>
         <fullName>SLAViolation__c</fullName>
-        <externalId>false</externalId>
         <label>SLA Violation</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -538,6 +535,11 @@
     <listViews>
         <fullName>AllOpenCases</fullName>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.CREATED_DATE_DATE_ONLY</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
         <filters>
             <field>CASES.CLOSED</field>
             <operation>equals</operation>
