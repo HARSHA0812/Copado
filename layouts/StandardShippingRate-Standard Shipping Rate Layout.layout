@@ -4,37 +4,51 @@
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
+        <label>Information</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>CartItemId</field>
+                <field>ShippingZoneId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>CartId</field>
+                <field>ConditionFactor</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>CreatedDate</field>
+                <field>ConditionRangeMax</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>TaxType</field>
+                <field>TransitTimeMax</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>TaxCalculationDate</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Amount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Name</field>
+                <field>ShippingCarrierMethodId</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Price</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>ConditionRangeMin</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>TransitTimeMin</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>TransitTimeUnit</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>WeightUnit</field>
+            </layoutItems>
+        </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -44,15 +58,6 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <miniLayout>
-        <fields>CartItemId</fields>
-        <fields>CartId</fields>
-        <fields>CreatedDate</fields>
-        <fields>TaxType</fields>
-        <fields>TaxCalculationDate</fields>
-        <fields>Amount</fields>
-        <fields>Name</fields>
-    </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>

@@ -4,37 +4,27 @@
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
+        <label>Information</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>CartItemId</field>
+                <field>ShippingRateGroupId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>CartId</field>
+                <field>Countries</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>CreatedDate</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>TaxType</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>TaxCalculationDate</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Amount</field>
-            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Regions</field>
+            </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -44,15 +34,6 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <miniLayout>
-        <fields>CartItemId</fields>
-        <fields>CartId</fields>
-        <fields>CreatedDate</fields>
-        <fields>TaxType</fields>
-        <fields>TaxCalculationDate</fields>
-        <fields>Amount</fields>
-        <fields>Name</fields>
-    </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
