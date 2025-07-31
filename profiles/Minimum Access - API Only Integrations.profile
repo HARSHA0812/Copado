@@ -232,6 +232,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>UtilityClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UtilityClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__ACPromotionDeploymentToBackPromotion</apexClass>
         <enabled>false</enabled>
     </classAccesses>
