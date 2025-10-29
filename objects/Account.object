@@ -557,6 +557,11 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PersonReportsToId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>PersonTitle</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
