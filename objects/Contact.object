@@ -425,6 +425,14 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Harsha__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Harsha</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -516,6 +524,11 @@
                     <fullName>Primary</fullName>
                     <default>false</default>
                     <label>Primary</label>
+                </value>
+                <value>
+                    <fullName>Test</fullName>
+                    <default>false</default>
+                    <label>Test</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

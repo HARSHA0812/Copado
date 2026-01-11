@@ -31,7 +31,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Check__c</field>
+                <field>Sample_activity__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
