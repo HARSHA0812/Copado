@@ -21,14 +21,6 @@
         <name>copado__Pipeline_Manager</name>
     </fieldSets>
     <fields>
-        <label><!-- Caused Business Disruption --></label>
-        <name>cml_Caused_Business_Disruption__c</name>
-    </fields>
-    <fields>
-        <label><!-- Is Destination a Production Org --></label>
-        <name>cml_Is_Destination_a_Production_Org__c</name>
-    </fields>
-    <fields>
         <help><!-- Select this checkbox if you are promoting from a higher to a lower environment in the pipeline. --></help>
         <label><!-- Is Back-Promotion --></label>
         <name>copado__Back_Promotion__c</name>

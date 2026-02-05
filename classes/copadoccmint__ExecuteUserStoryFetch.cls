@@ -41,7 +41,7 @@ global class ExecuteUserStoryFetch extends CommonIntegrationConstants implements
         List<copado__Sprint__c> sprintList = (List<copado__Sprint__c>) scope;
         Map<String, Map<String, String>> tempUserStoryList = new Map<String, Map<String, String>>();
         tempUserStoryList = (IntegrationFactory.returnInstance(gProject.Copado_Integration_Setting__r.External_System__c)
-            .fetchRecordsWithLimitedSprints(gProject, sprintList));
+            .fetchRecordsWithLimitedSprints(gProject, sprintList, TRUE));
         if (null != tempUserStoryList && tempUserStoryList.size() > 0) {
             for (String eachUsExtId : tempUserStoryList.keySet()) {
                 userStoryList.put(eachUsExtId, tempUserStoryList.get(eachUsExtId));

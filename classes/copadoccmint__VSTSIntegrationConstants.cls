@@ -29,7 +29,7 @@ public virtual with sharing class VSTSIntegrationConstants extends CommonIntegra
     protected final String CLOSING_TAG = '>';
     protected final String VALUE_KEYWORD = 'value';
     //tpu field names
-    protected final String ASSIGNED_TO = 'System.AssignedTo';
+    protected final String ASSIGNED_TO = Label.ADODeveloperFieldName;
     protected final String PROJECT = 'System.TeamProject';
     protected final String WORK_ITEM_TYPE = 'System.WorkItemType';
     protected final String ITERATION = 'System.IterationPath';

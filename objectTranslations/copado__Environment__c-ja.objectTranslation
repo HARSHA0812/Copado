@@ -5,11 +5,6 @@
         <value><!-- Environment --></value>
     </caseValues>
     <fields>
-        <help><!-- Only check this value for Production Environments --></help>
-        <label><!-- Is Production Org --></label>
-        <name>cml_Is_Production_Org__c</name>
-    </fields>
-    <fields>
         <label><!-- Compliance Rule Group --></label>
         <name>copado__Compliance_Rule_Group__c</name>
         <relationshipLabel><!-- Environments --></relationshipLabel>

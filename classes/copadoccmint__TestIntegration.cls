@@ -401,7 +401,7 @@ private class TestIntegration {
             null
         );
         Test.setMock(HttpCalloutMock.class, fakeResponse);
-        new ScheduleUserStoryFetch(proId, true).prepareSprints();
+        new ScheduleUserStoryFetch(proId, true);
         System.assertEquals(2, [SELECT COUNT() FROM copado__sprint__c]);
 
         fakeResponse = new CopadoMockHttpResponseGenerator(
@@ -448,7 +448,7 @@ private class TestIntegration {
         );
         Test.setMock(HttpCalloutMock.class, fakeResponse);
 
-        new ScheduleUserStoryFetch(proId, true).prepareSprints();
+        new ScheduleUserStoryFetch(proId, true);
         System.assertEquals(3, [SELECT COUNT() FROM copado__sprint__c]);
 
         fakeResponse = new CopadoMockHttpResponseGenerator(
@@ -504,7 +504,6 @@ private class TestIntegration {
         CopadoMockHttpResponseGenerator fakeResponse = new CopadoMockHttpResponseGenerator(200, 'Complete', respBody, null);
         Test.setMock(HttpCalloutMock.class, fakeResponse);
         ScheduleUserStoryFetch schObj = new ScheduleUserStoryFetch(proId, true);
-        schObj.prepareSprints();
         System.assertEquals(50, [SELECT COUNT() FROM copado__sprint__c], 'Sprint count should be 50');
 
         fakeResponse = new CopadoMockHttpResponseGenerator(
@@ -577,7 +576,6 @@ private class TestIntegration {
 
         Test.setMock(HttpCalloutMock.class, fakeResponse);
         ScheduleUserStoryFetch schObj = new ScheduleUserStoryFetch(proId, true);
-        schObj.prepareSprints();
         System.assertEquals(50, [SELECT COUNT() FROM copado__sprint__c], 'Sprint count should be 50');
 
         fakeResponse = new CopadoMockHttpResponseGenerator(

@@ -25,4 +25,10 @@
         <label>Closed</label>
         <closed>true</closed>
     </standardValue>
+    <standardValue>
+        <fullName>Case support process value</fullName>
+        <default>false</default>
+        <label>Case support process value</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>

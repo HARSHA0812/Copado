@@ -81,6 +81,12 @@
                 <identifier>RecordNameField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.External_ID__c</fieldItem>
+                <identifier>RecordExternal_ID__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-e3931407-f6fd-4023-ad36-c910cfd91467</name>
         <type>Facet</type>
     </flexiPageRegions>

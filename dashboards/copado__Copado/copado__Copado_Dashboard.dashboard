@@ -23,6 +23,7 @@
             <showPercentage>false</showPercentage>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <useReportChart>false</useReportChart>
         </components>
     </leftSection>
@@ -59,6 +60,7 @@
             <sortBy>RowLabelAscending</sortBy>
         </components>
     </middleSection>
+    <owner>hvardhangaddam@dev1.copado</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
@@ -77,6 +79,7 @@
             <showPercentage>false</showPercentage>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <useReportChart>false</useReportChart>
         </components>
         <components>
@@ -95,7 +98,7 @@
             <sortBy>RowLabelAscending</sortBy>
         </components>
     </rightSection>
-    <runningUser>hvardhangaddam@prod.copado</runningUser>
+    <runningUser>hvardhangaddam@dev1.copado</runningUser>
     <textColor>#000000</textColor>
     <title>Copado Dashboard</title>
     <titleColor>#000000</titleColor>

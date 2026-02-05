@@ -89,6 +89,7 @@
                 <showTotal>true</showTotal>
                 <showValues>true</showValues>
                 <sortBy>RowValueDescending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -144,6 +145,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowValueDescending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>3</rowIndex>
@@ -175,6 +177,7 @@
                 <showPercentage>false</showPercentage>
                 <showValues>true</showValues>
                 <sortBy>RowValueDescending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>4</rowIndex>
@@ -206,6 +209,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowValueDescending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>4</rowIndex>
@@ -216,7 +220,8 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <runningUser>hvardhangaddam@prod.copado</runningUser>
+    <owner>hvardhangaddam@dev1.copado</owner>
+    <runningUser>hvardhangaddam@dev1.copado</runningUser>
     <textColor>#000000</textColor>
     <title>CCM - Sprint Dashboard</title>
     <titleColor>#000000</titleColor>

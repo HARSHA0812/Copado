@@ -37,6 +37,10 @@ global with sharing class ScheduleUserStoryFetch implements Schedulable {
         } else {
             this.chunkSize = 50;
         }
+
+        if(isSprint){
+            this.prepareSprints();
+        } 
     }
 
     public void prepareSprints() {
@@ -51,9 +55,7 @@ global with sharing class ScheduleUserStoryFetch implements Schedulable {
      * happen everyday at 12pm.
      */
     global void scheduleSyncForUserStoriesAndSprintsFromThridParty(ScheduleUserStoryFetch scheduledClass, String cronExp){
-        if(scheduledClass.isSprint){
-           scheduledClass.prepareSprints();
-        }
+        
         if(String.isBlank(cronExp)){
             // if no value is provided for cronExp then the sync will happen everyday at 12pm
             cronExp = defaultCronExp;

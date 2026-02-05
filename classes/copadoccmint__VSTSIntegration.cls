@@ -104,9 +104,12 @@ public with sharing class VSTSIntegration extends VSTSIntegrationConstants imple
     }
 
     //Field mapping values between salesforce and third party platform fields under related project
+    public Boolean thirdParty = FALSE;
     public Map<String, String> fieldMap {
         get {
-            if (null == fieldMap) {
+            if (thirdParty && null == fieldMap) {
+                fieldMap = CopadoCCMutilities.returnFieldMap(pId, DONT_EXCLUDE_FROM_SALESFORCE);
+            } else if (null == fieldMap) {
                 fieldMap = CopadoCCMutilities.returnFieldMap(pId, DONT_EXCLUDE_FROM_THIRD_PARTY);
             }
             return fieldMap;
@@ -175,8 +178,9 @@ public with sharing class VSTSIntegration extends VSTSIntegrationConstants imple
      *
      * @return List<Map<String,String>>
      */
-    public Map<String, Map<String, String>> fetchRecordsWithLimitedSprints(copado__Project__c selectedProject, List<copado__Sprint__c> sprints) {
+    public Map<String, Map<String, String>> fetchRecordsWithLimitedSprints(copado__Project__c selectedProject, List<copado__Sprint__c> sprints, Boolean tParty) {
         pid = selectedProject.id;
+        thirdParty = tParty;
         projectExtId = selectedProject.Project_External_Id__c;
         workspaceId = selectedProject.Workspace_Id__c;
         namedCredential = selectedProject.Copado_Integration_Setting__r.Named_Credential__c;
@@ -218,8 +222,9 @@ public with sharing class VSTSIntegration extends VSTSIntegrationConstants imple
         return keyValuepairsByExternalId;
     }
 
-    public List<Map<String, String>> fetchRecords(copado__Project__c selectedProject, Boolean isSprint) {
+    public List<Map<String, String>> fetchRecords(copado__Project__c selectedProject, Boolean isSprint, Boolean tParty) {
         pid = selectedProject.id;
+        thirdParty = tParty;
         projectExtId = selectedProject.Project_External_Id__c;
         workspaceId = selectedProject.Workspace_Id__c;
         namedCredential = selectedProject.Copado_Integration_Setting__r.Named_Credential__c;
@@ -339,18 +344,20 @@ public with sharing class VSTSIntegration extends VSTSIntegrationConstants imple
                 JSONParser parser = JSON.createParser(responseText);
                 //wrapper class direct parse
                 sprintWorkItemsWrapper sprintWrapperItem = (sprintWorkItemsWrapper) parser.readValueAs(sprintWorkItemsWrapper.class);
-                if((currentIndex != 0 || (currentIndex == 0 && wIIds[0].size() != 0)) && sprintWrapperItem.workItemRelations.size() > 0){
-                    currentIndex++;
-                    wIIds.add(new List<String>());
-                }
-                Integer counter4Ids = 0;
-                for (targetWrapper targetItem : sprintWrapperItem.workItemRelations) {
-                    wIIds[currentIndex].add(String.valueOf(targetItem.target.id));
-                    counter4Ids++;
-                    if (counter4Ids == vstsPaginationSize) {
-                        wIIds.add(new List<String>());
-                        counter4Ids = 0;
+                if(null != sprintWrapperItem.workItemRelations){
+                    if((currentIndex != 0 || (currentIndex == 0 && wIIds[0].size() != 0)) && sprintWrapperItem.workItemRelations.size() > 0){
                         currentIndex++;
+                        wIIds.add(new List<String>());
+                    }
+                    Integer counter4Ids = 0;
+                    for (targetWrapper targetItem : sprintWrapperItem.workItemRelations) {
+                        wIIds[currentIndex].add(String.valueOf(targetItem.target.id));
+                        counter4Ids++;
+                        if (counter4Ids == vstsPaginationSize) {
+                            wIIds.add(new List<String>());
+                            counter4Ids = 0;
+                            currentIndex++;
+                        }
                     }
                 }
             }
@@ -421,6 +428,11 @@ public with sharing class VSTSIntegration extends VSTSIntegrationConstants imple
                 keyValuepairTempMap.put(sItem.toLowerCase(), String.valueOf(fields.get(sItem)));
             }
         }
+        //Adding developer key for unassigned workitems
+        if(!keyValuepairTempMap.containskey(DEVELOPER_KEYWORD)){
+            keyValuepairTempMap.put(DEVELOPER_KEYWORD,null);
+        }
+
         return keyValuepairTempMap;
     }
 
@@ -432,7 +444,7 @@ public with sharing class VSTSIntegration extends VSTSIntegrationConstants imple
      * @return sprint list response
      */
     private void getSprints(copado__Project__c selectedProject) {
-        List<copado__Sprint__c> sprintsUpsert = new List<copado__Sprint__c>();
+        Set<copado__Sprint__c> sprintsUpsert = new Set<copado__Sprint__c>();
         List<String> teams = teamInfo.split(COMMA);
         for (String team : teams) {
             String encodedTeam = team.replaceAll(ONE_CHAR, SPACE_ENCODE);
@@ -453,7 +465,7 @@ public with sharing class VSTSIntegration extends VSTSIntegrationConstants imple
             Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(responseText);
             sprintsUpsert.addAll(upsertSprints((List<Object>) results.get(VALUE_KEYWORD), selectedProject.Id));
         }
-        upsert sprintsUpsert External_Id__c;
+        upsert new List<copado__Sprint__c>(sprintsUpsert) External_Id__c;
     }
 
     public void fetchSprints(copado__Project__c selectedProject) {
@@ -474,18 +486,20 @@ public with sharing class VSTSIntegration extends VSTSIntegrationConstants imple
      */
     private List<copado__Sprint__c> upsertSprints(List<Object> sprints, Id projectId) {
         List<copado__Sprint__c> sprintsUpsert = new List<copado__Sprint__c>();
-        for (Object obj : sprints) {
-            Map<String, Object> tempMap = (Map<String, Object>) obj;
-            Map<String, Object> attributes = (Map<String, Object>) tempMap.get(ATTRIBUTES_KEYWORD);
-            sprintsUpsert.add(
-                new copado__Sprint__c(
-                    External_Id__c = String.valueOf(tempMap.get(ID_KEYWORD)),
-                    Name = String.valueOf(tempMap.get(NAME_KEYWORD)),
-                    copado__Start_Date__c = convertStringToDate(attributes.get(START_DATE)),
-                    copado__End_Date__c = convertStringToDate(attributes.get(FINISH_DATE)),
-                    copado__Project__c = projectId
-                )
-            );
+        if(null != sprints){
+            for (Object obj : sprints) {
+                Map<String, Object> tempMap = (Map<String, Object>) obj;
+                Map<String, Object> attributes = (Map<String, Object>) tempMap.get(ATTRIBUTES_KEYWORD);
+                sprintsUpsert.add(
+                    new copado__Sprint__c(
+                        External_Id__c = String.valueOf(tempMap.get(ID_KEYWORD)),
+                        Name = String.valueOf(tempMap.get(NAME_KEYWORD)),
+                        copado__Start_Date__c = convertStringToDate(attributes.get(START_DATE)),
+                        copado__End_Date__c = convertStringToDate(attributes.get(FINISH_DATE)),
+                        copado__Project__c = projectId
+                    )
+                );
+            }
         }
         return sprintsUpsert;
     }
